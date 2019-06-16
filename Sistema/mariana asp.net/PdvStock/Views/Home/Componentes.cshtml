@@ -1,0 +1,140 @@
+﻿@using PdvStock.Utils
+<hr />
+<h4>Upload</h4>
+<hr />
+
+<span class="btn btn-success btn-file">
+    <i class="fa fa-picture-o"></i>&ensp;Trocar Foto<input type="file" name="foto" id="foto" accept="image/x-png, image/gif, image/jpeg" />
+</span><br />
+<xmp>
+    <span class="btn btn-success btn-file">
+        <i class="fa fa-picture-o"></i>&ensp;Trocar Foto<input type="file" name="foto" id="foto" accept="image/x-png, image/gif, image/jpeg" />
+    </span><br />
+</xmp>
+
+
+<hr/>
+<h4>DatePicker</h4>
+<hr/>
+
+
+<label for="DataTal"> Data <input id="DataTal" type="text" class="DatePickerAttr" /> </label>
+<xmp>
+    <label for="DataTal"> Data <input id="DataTal" type="text" class="DatePickerAttr" /> </label>
+</xmp>
+
+
+<hr />
+<h4>Chosen <a href="https://harvesthq.github.io/chosen/">Docs</a> <a href="https://harvesthq.github.io/chosen/options.html">Options</a></h4>
+<hr />
+
+<fieldset>
+    <legend>Single</legend>
+    <select id="AttrTal" name="AttrTal">
+        <option value=""></option>
+        <option value="1">Santos FC</option>
+        <option value="1">São Paulo FC</option>
+        <option value="1">Palmeiras FC</option>
+        <option value="1">Corinthians FC</option>
+        <option value="1">Time FC</option>
+        <option value="1">Taboão FC</option>
+        @for (int i = 0; i < 50; i++)
+        {
+            <option value="@i">@StringUtil.RandomString(i) FC</option>
+        }
+    </select>
+
+    <xmp>
+        <select id="AttrTal" name="AttrTal" >
+            <option value=""></option>
+            <option value="1">Santos FC</option>
+            <option value="1">São Paulo FC</option>
+            <option value="1">Palmeiras FC</option>
+            <option value="1">Corinthians FC</option>
+            <option value="1">Time FC</option>
+            <option value="1">Taboão FC</option>
+        </select>
+    </xmp>
+</fieldset>
+<fieldset>
+    <legend>Multiple</legend>
+    <select id="AttrTal" name="AttrTal" multiple>
+        <option value="1">Santos FC</option>
+        <option value="1">São Paulo FC</option>
+        <option value="1">Palmeiras FC</option>
+        <option value="1">Corinthians FC</option>
+        <option value="1">Time FC</option>
+        <option value="1">Taboão FC</option>
+        @for (int i = 0; i < 50; i++)
+        {
+            <option value="@i">@StringUtil.RandomString(i) FC</option>
+        }
+    </select>
+
+    <xmp>
+        <select id="AttrTal" name="AttrTal" multiple>
+            <option value="1">Santos FC</option>
+            <option value="1">São Paulo FC</option>
+            <option value="1">Palmeiras FC</option>
+            <option value="1">Corinthians FC</option>
+            <option value="1">Time FC</option>
+            <option value="1">Taboão FC</option>
+        </select>
+    </xmp>
+</fieldset>
+<fieldset>
+    <legend>Single (Contains config)</legend>
+    <select id="AttrTal" name="AttrTal" contains="true" >
+        <option value=""></option>
+        <option value="1">Santos FC</option>
+        <option value="1">São Paulo FC</option>
+        <option value="1">Palmeiras FC</option>
+        <option value="1">Corinthians FC</option>
+        <option value="1">Time FC</option>
+        <option value="1">Taboão FC</option>
+        @for (int i = 0; i < 50; i++)
+        {
+            <option value="@i">@StringUtil.RandomString(i) FC</option>
+        }
+    </select>
+
+    <xmp>
+        <select id="AttrTal" name="AttrTal" contains="true">
+            <option value=""></option>
+            <option value="1">Santos FC</option>
+            <option value="1">São Paulo FC</option>
+            <option value="1">Palmeiras FC</option>
+            <option value="1">Corinthians FC</option>
+            <option value="1">Time FC</option>
+            <option value="1">Taboão FC</option>
+        </select>
+    </xmp>
+</fieldset>
+<fieldset>
+    <legend>Single (width config)</legend>
+    <select id="AttrTal" name="AttrTal" contains="true" width="100%">
+        <option value=""></option>
+        <option value="1">Santos FC</option>
+        <option value="1">São Paulo FC</option>
+        <option value="1">Palmeiras FC</option>
+        <option value="1">Corinthians FC</option>
+        <option value="1">Time FC</option>
+        <option value="1">Taboão FC</option>
+        @for (int i = 0; i < 50; i++)
+        {
+            <option value="@i">@StringUtil.RandomString(i) FC</option>
+        }
+    </select>
+
+    <xmp>
+        <select id="AttrTal" name="AttrTal" contains="true" width="100%">
+            <option value=""></option>
+            <option value="1">Santos FC</option>
+            <option value="1">São Paulo FC</option>
+            <option value="1">Palmeiras FC</option>
+            <option value="1">Corinthians FC</option>
+            <option value="1">Time FC</option>
+            <option value="1">Taboão FC</option>
+        </select>
+    </xmp>
+</fieldset>

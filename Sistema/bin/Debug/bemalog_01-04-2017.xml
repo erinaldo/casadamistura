@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<bematech>
+	<readBemaFIFile Time="01-04-2017 15:35:01:552">
+		<NivelLog Time="01-04-2017 15:35:01:567">1</NivelLog>
+		<Path Time="01-04-2017 15:35:01:567">D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\</Path>
+		<BemaFI_path Time="01-04-2017 15:35:01:567">D:\PROJETOS\A MARIANA\SistemaMariana\SISTEMA\bin\Debug\bemafi32.dll</BemaFI_path>
+		<BemaFI_version Time="01-04-2017 15:35:01:567">7,0,4,92</BemaFI_version>
+		<BemaFI_path_configuracao Time="01-04-2017 15:35:01:567">D:\PROJETOS\A MARIANA\SistemaMariana\SISTEMA\bin\Debug\bemafi.xml</BemaFI_path_configuracao>
+		<Path_manutencao Time="01-04-2017 15:35:01:567">C:\Windows\system32\manutencao.xml</Path_manutencao>
+		<Porta Time="01-04-2017 15:35:01:567">COM1</Porta>
+		<BaudRate Time="01-04-2017 15:35:01:567">9600</BaudRate>
+		<Status Time="01-04-2017 15:35:01:567">0</Status>
+		<Retorno Time="01-04-2017 15:35:01:567">0</Retorno>
+		<StatusFuncao Time="01-04-2017 15:35:01:567">0</StatusFuncao>
+		<ControlePorta Time="01-04-2017 15:35:01:567">1</ControlePorta>
+		<ModoGaveta Time="01-04-2017 15:35:01:567">0</ModoGaveta>
+		<CrLfVinculado Time="01-04-2017 15:35:01:567">0</CrLfVinculado>
+		<CrLfGerencial Time="01-04-2017 15:35:01:567">1</CrLfGerencial>
+		<TimeOutReducaoZ Time="01-04-2017 15:35:01:567">5940</TimeOutReducaoZ>
+		<TimeOutGerencialExtendido Time="01-04-2017 15:35:01:567">40</TimeOutGerencialExtendido>
+		<ConfigRede Time="01-04-2017 15:35:01:567">0</ConfigRede>
+		<Tentativas Time="01-04-2017 15:35:01:567">999</Tentativas>
+		<WakMilisegundos Time="01-04-2017 15:35:01:567">100</WakMilisegundos>
+		<TimeoutSegundos Time="01-04-2017 15:35:01:567">180</TimeoutSegundos>
+		<VersaoAtoCotepe Time="01-04-2017 15:35:01:567">1</VersaoAtoCotepe>
+		<TimeoutEscritaPorta Time="01-04-2017 15:35:01:567">100</TimeoutEscritaPorta>
+		<TimeoutLeituraPorta Time="01-04-2017 15:35:01:567">10000</TimeoutLeituraPorta>
+		<ProtocoloUnico Time="01-04-2017 15:35:01:567">0</ProtocoloUnico>
+		<CAT52 Time="01-04-2017 15:35:01:567">0</CAT52>
+		<CupomMania Time="01-04-2017 15:35:01:567">0</CupomMania>
+		<MinasLegal Time="01-04-2017 15:35:01:567">0</MinasLegal>
+		<NotaFiscalParanaense Time="01-04-2017 15:35:01:567">0</NotaFiscalParanaense>
+		<NotaLegal Time="01-04-2017 15:35:01:567">0</NotaLegal>
+		<ParaibaLegal Time="01-04-2017 15:35:01:567">0</ParaibaLegal>
+		<CupomAdicional Time="01-04-2017 15:35:01:567">0</CupomAdicional>
+		<Impressora Time="01-04-2017 15:35:01:567">1</Impressora>
+		<EmulMFD Time="01-04-2017 15:35:01:567">0</EmulMFD>
+		<Aliquota01 Time="01-04-2017 15:35:01:567"></Aliquota01>
+		<Aliquota02 Time="01-04-2017 15:35:01:567"></Aliquota02>
+		<Aliquota03 Time="01-04-2017 15:35:01:567"></Aliquota03>
+		<Aliquota04 Time="01-04-2017 15:35:01:567"></Aliquota04>
+		<Aliquota05 Time="01-04-2017 15:35:01:567"></Aliquota05>
+		<Aliquota06 Time="01-04-2017 15:35:01:567"></Aliquota06>
+		<Aliquota07 Time="01-04-2017 15:35:01:567"></Aliquota07>
+		<Aliquota08 Time="01-04-2017 15:35:01:567"></Aliquota08>
+		<Aliquota09 Time="01-04-2017 15:35:01:567"></Aliquota09>
+		<Aliquota10 Time="01-04-2017 15:35:01:567"></Aliquota10>
+		<Aliquota11 Time="01-04-2017 15:35:01:583"></Aliquota11>
+		<Aliquota12 Time="01-04-2017 15:35:01:583"></Aliquota12>
+		<Aliquota13 Time="01-04-2017 15:35:01:583"></Aliquota13>
+		<Aliquota14 Time="01-04-2017 15:35:01:583"></Aliquota14>
+		<Aliquota15 Time="01-04-2017 15:35:01:583"></Aliquota15>
+		<Aliquota16 Time="01-04-2017 15:35:01:583"></Aliquota16>
+		<COO Time="01-04-2017 15:35:01:583"></COO>
+		<NumeroAplicativo Time="01-04-2017 15:35:01:583"></NumeroAplicativo>
+		<CNPJ Time="01-04-2017 15:35:01:583"></CNPJ>
+		<IE Time="01-04-2017 15:35:01:583"></IE>
+		<IM Time="01-04-2017 15:35:01:583"></IM>
+		<RazaoSocial Time="01-04-2017 15:35:01:583"></RazaoSocial>
+		<NomeAplicativo Time="01-04-2017 15:35:01:583"></NomeAplicativo>
+		<Versao Time="01-04-2017 15:35:01:583"></Versao>
+		<Linha1 Time="01-04-2017 15:35:01:583"></Linha1>
+		<Linha2 Time="01-04-2017 15:35:01:583"></Linha2>
+		<IM_ECF Time="01-04-2017 15:35:01:583"></IM_ECF>
+		<UF Time="01-04-2017 15:35:01:583"></UF>
+		<Cidade Time="01-04-2017 15:35:01:583"></Cidade>
+		<Favorecido Time="01-04-2017 15:35:01:583"></Favorecido>
+		<Return Time="01-04-2017 15:35:01:583">1</Return>
+	</readBemaFIFile>
+	<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:01:614">
+		<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:01:614">
+			<Return Time="01-04-2017 15:35:02:082">0</Return>
+		</Bematech_FI_NumeroSerieMFD>
+		<ModeloImpressora Time="01-04-2017 15:35:02:082"></ModeloImpressora>
+		<Return Time="01-04-2017 15:35:02:082">0</Return>
+	</Bematech_FI_ModeloImpressora>
+	<Bematech_FI_AbreCupomMFD CV="8501" Time="01-04-2017 15:35:02:082">
+		<CPF Time="01-04-2017 15:35:02:082"></CPF>
+		<name Time="01-04-2017 15:35:02:082"></name>
+		<address Time="01-04-2017 15:35:02:082"></address>
+		<Bematech_FI_NumeroCupom CV="8501" Time="01-04-2017 15:35:02:082">
+			<Return Time="01-04-2017 15:35:02:472">0</Return>
+		</Bematech_FI_NumeroCupom>
+		<Return Time="01-04-2017 15:35:02:472">0</Return>
+	</Bematech_FI_AbreCupomMFD>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:05:717">
+		<ACK Time="01-04-2017 15:35:05:717">0</ACK>
+		<ST1 Time="01-04-2017 15:35:05:717">0</ST1>
+		<ST2 Time="01-04-2017 15:35:05:717">0</ST2>
+		<ST3 Time="01-04-2017 15:35:05:717">0</ST3>
+		<Return Time="01-04-2017 15:35:05:717">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:05:717">
+		<ACK Time="01-04-2017 15:35:05:717">0</ACK>
+		<ST1 Time="01-04-2017 15:35:05:717">0</ST1>
+		<ST2 Time="01-04-2017 15:35:05:717">0</ST2>
+		<ST3 Time="01-04-2017 15:35:05:717">0</ST3>
+		<Return Time="01-04-2017 15:35:05:717">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_VendeItemCompleto CV="Solution" Time="01-04-2017 15:35:05:733">
+		<code Time="01-04-2017 15:35:05:733">525</code>
+		<EAN13 Time="01-04-2017 15:35:05:733"></EAN13>
+		<description Time="01-04-2017 15:35:05:733">COCA COLA 600ML</description>
+		<indexDepartment Time="01-04-2017 15:35:05:733">00</indexDepartment>
+		<tax Time="01-04-2017 15:35:05:733">F1</tax>
+		<unitOfMeasure Time="01-04-2017 15:35:05:733">UN</unitOfMeasure>
+		<quantityType Time="01-04-2017 15:35:05:733">I</quantityType>
+		<decimalsQuantity Time="01-04-2017 15:35:05:733">3</decimalsQuantity>
+		<quantity Time="01-04-2017 15:35:05:733">1000</quantity>
+		<decimalsUnitaryValue Time="01-04-2017 15:35:05:733">2</decimalsUnitaryValue>
+		<unitaryValue Time="01-04-2017 15:35:05:733">7,20</unitaryValue>
+		<increaseDiscountType Time="01-04-2017 15:35:05:733">$</increaseDiscountType>
+		<incrementValue Time="01-04-2017 15:35:05:733">0,00</incrementValue>
+		<discountValue Time="01-04-2017 15:35:05:733">0,00</discountValue>
+		<typeOfCalculation Time="01-04-2017 15:35:05:733">A</typeOfCalculation>
+		<NCM Time="01-04-2017 15:35:05:733">22011000</NCM>
+		<CFOP Time="01-04-2017 15:35:05:733">5403</CFOP>
+		<additionalInformation Time="01-04-2017 15:35:05:733">OBRIGADO E VOLTE SEMPRE!!!</additionalInformation>
+		<CST_ICMS Time="01-04-2017 15:35:05:733">60</CST_ICMS>
+		<productOrigin Time="01-04-2017 15:35:05:733">0</productOrigin>
+		<itemServiceList Time="01-04-2017 15:35:05:733">1234</itemServiceList>
+		<ISSCode Time="01-04-2017 15:35:05:733"></ISSCode>
+		<ISSOperationNature Time="01-04-2017 15:35:05:733"></ISSOperationNature>
+		<ISSIncentiveIndicator Time="01-04-2017 15:35:05:733"></ISSIncentiveIndicator>
+		<IBGECode Time="01-04-2017 15:35:05:733"></IBGECode>
+		<CSOSN Time="01-04-2017 15:35:05:733">102</CSOSN>
+		<basisCalculuationValueRetained Time="01-04-2017 15:35:05:733">0</basisCalculuationValueRetained>
+		<ICMSValueRetained Time="01-04-2017 15:35:05:733">0</ICMSValueRetained>
+		<basisCalculationMode Time="01-04-2017 15:35:05:733">0</basisCalculationMode>
+		<basisCalculationReductionPercentual Time="01-04-2017 15:35:05:733">0</basisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationMode Time="01-04-2017 15:35:05:733">0</ICMSSTBasisCalculationMode>
+		<ICMSSTValueAddedMarginPercentual Time="01-04-2017 15:35:05:733">0</ICMSSTValueAddedMarginPercentual>
+		<ICMSSTBasisCalculationReductionPercentual Time="01-04-2017 15:35:05:733">0</ICMSSTBasisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationReductionValue Time="01-04-2017 15:35:05:733">0</ICMSSTBasisCalculationReductionValue>
+		<ICMSSTTax Time="01-04-2017 15:35:05:733">0</ICMSSTTax>
+		<ICMSSTValue Time="01-04-2017 15:35:05:733">0</ICMSSTValue>
+		<ICMSUnencumberedValue Time="01-04-2017 15:35:05:733">0</ICMSUnencumberedValue>
+		<ICMSUnburdeningMotive Time="01-04-2017 15:35:05:733">0</ICMSUnburdeningMotive>
+		<creditCalculationApplicableTax Time="01-04-2017 15:35:05:733">0</creditCalculationApplicableTax>
+		<ICMSSNCreditValue Time="01-04-2017 15:35:05:733">0</ICMSSNCreditValue>
+		<IncidentTaxTotalValue Time="01-04-2017 15:35:05:733"></IncidentTaxTotalValue>
+		<pisCst Time="01-04-2017 15:35:05:733">04</pisCst>
+		<pisBasisCalculation Time="01-04-2017 15:35:05:733"></pisBasisCalculation>
+		<pisTax Time="01-04-2017 15:35:05:733"></pisTax>
+		<pisValue Time="01-04-2017 15:35:05:733"></pisValue>
+		<pisQuantitySell Time="01-04-2017 15:35:05:733"></pisQuantitySell>
+		<pisTaxValueProd Time="01-04-2017 15:35:05:733"></pisTaxValueProd>
+		<cofinsCst Time="01-04-2017 15:35:05:733">04</cofinsCst>
+		<cofinsBasisCalculation Time="01-04-2017 15:35:05:733"></cofinsBasisCalculation>
+		<cofinsTax Time="01-04-2017 15:35:05:733"></cofinsTax>
+		<cofinsValue Time="01-04-2017 15:35:05:733"></cofinsValue>
+		<cofinsQuantitySell Time="01-04-2017 15:35:05:733"></cofinsQuantitySell>
+		<cofinsTaxValueProd Time="01-04-2017 15:35:05:733"></cofinsTaxValueProd>
+		<CEST Time="01-04-2017 15:35:05:733"></CEST>
+		<TIPI Time="01-04-2017 15:35:05:733"></TIPI>
+		<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:05:733">
+			<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:05:733">
+				<Return Time="01-04-2017 15:35:06:201">0</Return>
+			</Bematech_FI_NumeroSerieMFD>
+			<ModeloImpressora Time="01-04-2017 15:35:06:201"></ModeloImpressora>
+			<Return Time="01-04-2017 15:35:06:201">0</Return>
+		</Bematech_FI_ModeloImpressora>
+		<Return Time="01-04-2017 15:35:06:201">0</Return>
+	</Bematech_FI_VendeItemCompleto>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:07:324">
+		<ACK Time="01-04-2017 15:35:07:324">0</ACK>
+		<ST1 Time="01-04-2017 15:35:07:324">0</ST1>
+		<ST2 Time="01-04-2017 15:35:07:324">0</ST2>
+		<ST3 Time="01-04-2017 15:35:07:324">0</ST3>
+		<Return Time="01-04-2017 15:35:07:324">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_VendeItemCompleto CV="Solution" Time="01-04-2017 15:35:07:324">
+		<code Time="01-04-2017 15:35:07:324">1476</code>
+		<EAN13 Time="01-04-2017 15:35:07:324"></EAN13>
+		<description Time="01-04-2017 15:35:07:324">BUBBALOO HORTELA</description>
+		<indexDepartment Time="01-04-2017 15:35:07:324">00</indexDepartment>
+		<tax Time="01-04-2017 15:35:07:324">F1</tax>
+		<unitOfMeasure Time="01-04-2017 15:35:07:324">UN</unitOfMeasure>
+		<quantityType Time="01-04-2017 15:35:07:324">I</quantityType>
+		<decimalsQuantity Time="01-04-2017 15:35:07:324">3</decimalsQuantity>
+		<quantity Time="01-04-2017 15:35:07:324">1000</quantity>
+		<decimalsUnitaryValue Time="01-04-2017 15:35:07:324">2</decimalsUnitaryValue>
+		<unitaryValue Time="01-04-2017 15:35:07:324">0,40</unitaryValue>
+		<increaseDiscountType Time="01-04-2017 15:35:07:324">$</increaseDiscountType>
+		<incrementValue Time="01-04-2017 15:35:07:324">0,00</incrementValue>
+		<discountValue Time="01-04-2017 15:35:07:324">0,00</discountValue>
+		<typeOfCalculation Time="01-04-2017 15:35:07:324">A</typeOfCalculation>
+		<NCM Time="01-04-2017 15:35:07:324">22011000</NCM>
+		<CFOP Time="01-04-2017 15:35:07:324">5403</CFOP>
+		<additionalInformation Time="01-04-2017 15:35:07:324">OBRIGADO E VOLTE SEMPRE!!!</additionalInformation>
+		<CST_ICMS Time="01-04-2017 15:35:07:324">60</CST_ICMS>
+		<productOrigin Time="01-04-2017 15:35:07:324">0</productOrigin>
+		<itemServiceList Time="01-04-2017 15:35:07:324">1234</itemServiceList>
+		<ISSCode Time="01-04-2017 15:35:07:324"></ISSCode>
+		<ISSOperationNature Time="01-04-2017 15:35:07:324"></ISSOperationNature>
+		<ISSIncentiveIndicator Time="01-04-2017 15:35:07:324"></ISSIncentiveIndicator>
+		<IBGECode Time="01-04-2017 15:35:07:324"></IBGECode>
+		<CSOSN Time="01-04-2017 15:35:07:324">102</CSOSN>
+		<basisCalculuationValueRetained Time="01-04-2017 15:35:07:324">0</basisCalculuationValueRetained>
+		<ICMSValueRetained Time="01-04-2017 15:35:07:324">0</ICMSValueRetained>
+		<basisCalculationMode Time="01-04-2017 15:35:07:339">0</basisCalculationMode>
+		<basisCalculationReductionPercentual Time="01-04-2017 15:35:07:339">0</basisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationMode Time="01-04-2017 15:35:07:339">0</ICMSSTBasisCalculationMode>
+		<ICMSSTValueAddedMarginPercentual Time="01-04-2017 15:35:07:339">0</ICMSSTValueAddedMarginPercentual>
+		<ICMSSTBasisCalculationReductionPercentual Time="01-04-2017 15:35:07:339">0</ICMSSTBasisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationReductionValue Time="01-04-2017 15:35:07:339">0</ICMSSTBasisCalculationReductionValue>
+		<ICMSSTTax Time="01-04-2017 15:35:07:339">0</ICMSSTTax>
+		<ICMSSTValue Time="01-04-2017 15:35:07:339">0</ICMSSTValue>
+		<ICMSUnencumberedValue Time="01-04-2017 15:35:07:339">0</ICMSUnencumberedValue>
+		<ICMSUnburdeningMotive Time="01-04-2017 15:35:07:339">0</ICMSUnburdeningMotive>
+		<creditCalculationApplicableTax Time="01-04-2017 15:35:07:339">0</creditCalculationApplicableTax>
+		<ICMSSNCreditValue Time="01-04-2017 15:35:07:339">0</ICMSSNCreditValue>
+		<IncidentTaxTotalValue Time="01-04-2017 15:35:07:339"></IncidentTaxTotalValue>
+		<pisCst Time="01-04-2017 15:35:07:339">04</pisCst>
+		<pisBasisCalculation Time="01-04-2017 15:35:07:339"></pisBasisCalculation>
+		<pisTax Time="01-04-2017 15:35:07:339"></pisTax>
+		<pisValue Time="01-04-2017 15:35:07:339"></pisValue>
+		<pisQuantitySell Time="01-04-2017 15:35:07:339"></pisQuantitySell>
+		<pisTaxValueProd Time="01-04-2017 15:35:07:339"></pisTaxValueProd>
+		<cofinsCst Time="01-04-2017 15:35:07:339">04</cofinsCst>
+		<cofinsBasisCalculation Time="01-04-2017 15:35:07:339"></cofinsBasisCalculation>
+		<cofinsTax Time="01-04-2017 15:35:07:339"></cofinsTax>
+		<cofinsValue Time="01-04-2017 15:35:07:339"></cofinsValue>
+		<cofinsQuantitySell Time="01-04-2017 15:35:07:339"></cofinsQuantitySell>
+		<cofinsTaxValueProd Time="01-04-2017 15:35:07:339"></cofinsTaxValueProd>
+		<CEST Time="01-04-2017 15:35:07:339"></CEST>
+		<TIPI Time="01-04-2017 15:35:07:339"></TIPI>
+		<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:07:339">
+			<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:07:339">
+				<Return Time="01-04-2017 15:35:07:807">0</Return>
+			</Bematech_FI_NumeroSerieMFD>
+			<ModeloImpressora Time="01-04-2017 15:35:07:807"></ModeloImpressora>
+			<Return Time="01-04-2017 15:35:07:807">0</Return>
+		</Bematech_FI_ModeloImpressora>
+		<Return Time="01-04-2017 15:35:07:807">0</Return>
+	</Bematech_FI_VendeItemCompleto>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:08:400">
+		<ACK Time="01-04-2017 15:35:08:400">0</ACK>
+		<ST1 Time="01-04-2017 15:35:08:400">0</ST1>
+		<ST2 Time="01-04-2017 15:35:08:400">0</ST2>
+		<ST3 Time="01-04-2017 15:35:08:400">0</ST3>
+		<Return Time="01-04-2017 15:35:08:400">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_VendeItemCompleto CV="Solution" Time="01-04-2017 15:35:08:400">
+		<code Time="01-04-2017 15:35:08:400">1560</code>
+		<EAN13 Time="01-04-2017 15:35:08:400"></EAN13>
+		<description Time="01-04-2017 15:35:08:400">ACTIVIA MANHA MAM/MACA/LAR 170G</description>
+		<indexDepartment Time="01-04-2017 15:35:08:400">00</indexDepartment>
+		<tax Time="01-04-2017 15:35:08:400">F1</tax>
+		<unitOfMeasure Time="01-04-2017 15:35:08:400">UN</unitOfMeasure>
+		<quantityType Time="01-04-2017 15:35:08:400">I</quantityType>
+		<decimalsQuantity Time="01-04-2017 15:35:08:400">3</decimalsQuantity>
+		<quantity Time="01-04-2017 15:35:08:400">1000</quantity>
+		<decimalsUnitaryValue Time="01-04-2017 15:35:08:400">2</decimalsUnitaryValue>
+		<unitaryValue Time="01-04-2017 15:35:08:400">7,50</unitaryValue>
+		<increaseDiscountType Time="01-04-2017 15:35:08:400">$</increaseDiscountType>
+		<incrementValue Time="01-04-2017 15:35:08:400">0,00</incrementValue>
+		<discountValue Time="01-04-2017 15:35:08:400">0,00</discountValue>
+		<typeOfCalculation Time="01-04-2017 15:35:08:400">A</typeOfCalculation>
+		<NCM Time="01-04-2017 15:35:08:400">22011000</NCM>
+		<CFOP Time="01-04-2017 15:35:08:400">5403</CFOP>
+		<additionalInformation Time="01-04-2017 15:35:08:400">OBRIGADO E VOLTE SEMPRE!!!</additionalInformation>
+		<CST_ICMS Time="01-04-2017 15:35:08:400">60</CST_ICMS>
+		<productOrigin Time="01-04-2017 15:35:08:400">0</productOrigin>
+		<itemServiceList Time="01-04-2017 15:35:08:400">1234</itemServiceList>
+		<ISSCode Time="01-04-2017 15:35:08:400"></ISSCode>
+		<ISSOperationNature Time="01-04-2017 15:35:08:400"></ISSOperationNature>
+		<ISSIncentiveIndicator Time="01-04-2017 15:35:08:400"></ISSIncentiveIndicator>
+		<IBGECode Time="01-04-2017 15:35:08:400"></IBGECode>
+		<CSOSN Time="01-04-2017 15:35:08:400">102</CSOSN>
+		<basisCalculuationValueRetained Time="01-04-2017 15:35:08:400">0</basisCalculuationValueRetained>
+		<ICMSValueRetained Time="01-04-2017 15:35:08:400">0</ICMSValueRetained>
+		<basisCalculationMode Time="01-04-2017 15:35:08:400">0</basisCalculationMode>
+		<basisCalculationReductionPercentual Time="01-04-2017 15:35:08:400">0</basisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationMode Time="01-04-2017 15:35:08:400">0</ICMSSTBasisCalculationMode>
+		<ICMSSTValueAddedMarginPercentual Time="01-04-2017 15:35:08:400">0</ICMSSTValueAddedMarginPercentual>
+		<ICMSSTBasisCalculationReductionPercentual Time="01-04-2017 15:35:08:400">0</ICMSSTBasisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationReductionValue Time="01-04-2017 15:35:08:416">0</ICMSSTBasisCalculationReductionValue>
+		<ICMSSTTax Time="01-04-2017 15:35:08:416">0</ICMSSTTax>
+		<ICMSSTValue Time="01-04-2017 15:35:08:416">0</ICMSSTValue>
+		<ICMSUnencumberedValue Time="01-04-2017 15:35:08:416">0</ICMSUnencumberedValue>
+		<ICMSUnburdeningMotive Time="01-04-2017 15:35:08:416">0</ICMSUnburdeningMotive>
+		<creditCalculationApplicableTax Time="01-04-2017 15:35:08:416">0</creditCalculationApplicableTax>
+		<ICMSSNCreditValue Time="01-04-2017 15:35:08:416">0</ICMSSNCreditValue>
+		<IncidentTaxTotalValue Time="01-04-2017 15:35:08:416"></IncidentTaxTotalValue>
+		<pisCst Time="01-04-2017 15:35:08:416">04</pisCst>
+		<pisBasisCalculation Time="01-04-2017 15:35:08:416"></pisBasisCalculation>
+		<pisTax Time="01-04-2017 15:35:08:416"></pisTax>
+		<pisValue Time="01-04-2017 15:35:08:416"></pisValue>
+		<pisQuantitySell Time="01-04-2017 15:35:08:416"></pisQuantitySell>
+		<pisTaxValueProd Time="01-04-2017 15:35:08:416"></pisTaxValueProd>
+		<cofinsCst Time="01-04-2017 15:35:08:416">04</cofinsCst>
+		<cofinsBasisCalculation Time="01-04-2017 15:35:08:416"></cofinsBasisCalculation>
+		<cofinsTax Time="01-04-2017 15:35:08:416"></cofinsTax>
+		<cofinsValue Time="01-04-2017 15:35:08:416"></cofinsValue>
+		<cofinsQuantitySell Time="01-04-2017 15:35:08:416"></cofinsQuantitySell>
+		<cofinsTaxValueProd Time="01-04-2017 15:35:08:416"></cofinsTaxValueProd>
+		<CEST Time="01-04-2017 15:35:08:416"></CEST>
+		<TIPI Time="01-04-2017 15:35:08:416"></TIPI>
+		<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:08:416">
+			<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:08:416">
+				<Return Time="01-04-2017 15:35:08:884">0</Return>
+			</Bematech_FI_NumeroSerieMFD>
+			<ModeloImpressora Time="01-04-2017 15:35:08:884"></ModeloImpressora>
+			<Return Time="01-04-2017 15:35:08:884">0</Return>
+		</Bematech_FI_ModeloImpressora>
+		<Return Time="01-04-2017 15:35:08:884">0</Return>
+	</Bematech_FI_VendeItemCompleto>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:09:477">
+		<ACK Time="01-04-2017 15:35:09:477">0</ACK>
+		<ST1 Time="01-04-2017 15:35:09:477">0</ST1>
+		<ST2 Time="01-04-2017 15:35:09:477">0</ST2>
+		<ST3 Time="01-04-2017 15:35:09:477">0</ST3>
+		<Return Time="01-04-2017 15:35:09:477">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_VendeItemCompleto CV="Solution" Time="01-04-2017 15:35:09:477">
+		<code Time="01-04-2017 15:35:09:477">1379</code>
+		<EAN13 Time="01-04-2017 15:35:09:477"></EAN13>
+		<description Time="01-04-2017 15:35:09:477">ACUCAR CARAVELAS 1KG</description>
+		<indexDepartment Time="01-04-2017 15:35:09:477">00</indexDepartment>
+		<tax Time="01-04-2017 15:35:09:477">F1</tax>
+		<unitOfMeasure Time="01-04-2017 15:35:09:477">UN</unitOfMeasure>
+		<quantityType Time="01-04-2017 15:35:09:477">I</quantityType>
+		<decimalsQuantity Time="01-04-2017 15:35:09:477">3</decimalsQuantity>
+		<quantity Time="01-04-2017 15:35:09:477">1000</quantity>
+		<decimalsUnitaryValue Time="01-04-2017 15:35:09:477">2</decimalsUnitaryValue>
+		<unitaryValue Time="01-04-2017 15:35:09:477">5,50</unitaryValue>
+		<increaseDiscountType Time="01-04-2017 15:35:09:477">$</increaseDiscountType>
+		<incrementValue Time="01-04-2017 15:35:09:477">0,00</incrementValue>
+		<discountValue Time="01-04-2017 15:35:09:477">0,00</discountValue>
+		<typeOfCalculation Time="01-04-2017 15:35:09:477">A</typeOfCalculation>
+		<NCM Time="01-04-2017 15:35:09:477">22011000</NCM>
+		<CFOP Time="01-04-2017 15:35:09:477">5403</CFOP>
+		<additionalInformation Time="01-04-2017 15:35:09:477">OBRIGADO E VOLTE SEMPRE!!!</additionalInformation>
+		<CST_ICMS Time="01-04-2017 15:35:09:477">60</CST_ICMS>
+		<productOrigin Time="01-04-2017 15:35:09:477">0</productOrigin>
+		<itemServiceList Time="01-04-2017 15:35:09:477">1234</itemServiceList>
+		<ISSCode Time="01-04-2017 15:35:09:477"></ISSCode>
+		<ISSOperationNature Time="01-04-2017 15:35:09:477"></ISSOperationNature>
+		<ISSIncentiveIndicator Time="01-04-2017 15:35:09:477"></ISSIncentiveIndicator>
+		<IBGECode Time="01-04-2017 15:35:09:477"></IBGECode>
+		<CSOSN Time="01-04-2017 15:35:09:477">102</CSOSN>
+		<basisCalculuationValueRetained Time="01-04-2017 15:35:09:477">0</basisCalculuationValueRetained>
+		<ICMSValueRetained Time="01-04-2017 15:35:09:477">0</ICMSValueRetained>
+		<basisCalculationMode Time="01-04-2017 15:35:09:477">0</basisCalculationMode>
+		<basisCalculationReductionPercentual Time="01-04-2017 15:35:09:492">0</basisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationMode Time="01-04-2017 15:35:09:492">0</ICMSSTBasisCalculationMode>
+		<ICMSSTValueAddedMarginPercentual Time="01-04-2017 15:35:09:492">0</ICMSSTValueAddedMarginPercentual>
+		<ICMSSTBasisCalculationReductionPercentual Time="01-04-2017 15:35:09:492">0</ICMSSTBasisCalculationReductionPercentual>
+		<ICMSSTBasisCalculationReductionValue Time="01-04-2017 15:35:09:492">0</ICMSSTBasisCalculationReductionValue>
+		<ICMSSTTax Time="01-04-2017 15:35:09:492">0</ICMSSTTax>
+		<ICMSSTValue Time="01-04-2017 15:35:09:492">0</ICMSSTValue>
+		<ICMSUnencumberedValue Time="01-04-2017 15:35:09:492">0</ICMSUnencumberedValue>
+		<ICMSUnburdeningMotive Time="01-04-2017 15:35:09:492">0</ICMSUnburdeningMotive>
+		<creditCalculationApplicableTax Time="01-04-2017 15:35:09:492">0</creditCalculationApplicableTax>
+		<ICMSSNCreditValue Time="01-04-2017 15:35:09:492">0</ICMSSNCreditValue>
+		<IncidentTaxTotalValue Time="01-04-2017 15:35:09:492"></IncidentTaxTotalValue>
+		<pisCst Time="01-04-2017 15:35:09:492">04</pisCst>
+		<pisBasisCalculation Time="01-04-2017 15:35:09:492"></pisBasisCalculation>
+		<pisTax Time="01-04-2017 15:35:09:492"></pisTax>
+		<pisValue Time="01-04-2017 15:35:09:492"></pisValue>
+		<pisQuantitySell Time="01-04-2017 15:35:09:492"></pisQuantitySell>
+		<pisTaxValueProd Time="01-04-2017 15:35:09:492"></pisTaxValueProd>
+		<cofinsCst Time="01-04-2017 15:35:09:492">04</cofinsCst>
+		<cofinsBasisCalculation Time="01-04-2017 15:35:09:492"></cofinsBasisCalculation>
+		<cofinsTax Time="01-04-2017 15:35:09:492"></cofinsTax>
+		<cofinsValue Time="01-04-2017 15:35:09:492"></cofinsValue>
+		<cofinsQuantitySell Time="01-04-2017 15:35:09:492"></cofinsQuantitySell>
+		<cofinsTaxValueProd Time="01-04-2017 15:35:09:492"></cofinsTaxValueProd>
+		<CEST Time="01-04-2017 15:35:09:492"></CEST>
+		<TIPI Time="01-04-2017 15:35:09:492"></TIPI>
+		<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:09:492">
+			<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:09:492">
+				<Return Time="01-04-2017 15:35:09:960">0</Return>
+			</Bematech_FI_NumeroSerieMFD>
+			<ModeloImpressora Time="01-04-2017 15:35:09:960"></ModeloImpressora>
+			<Return Time="01-04-2017 15:35:09:960">0</Return>
+		</Bematech_FI_ModeloImpressora>
+		<Return Time="01-04-2017 15:35:09:960">0</Return>
+	</Bematech_FI_VendeItemCompleto>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:10:491">
+		<ACK Time="01-04-2017 15:35:10:491">0</ACK>
+		<ST1 Time="01-04-2017 15:35:10:491">0</ST1>
+		<ST2 Time="01-04-2017 15:35:10:491">0</ST2>
+		<ST3 Time="01-04-2017 15:35:10:491">0</ST3>
+		<Return Time="01-04-2017 15:35:10:491">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_IniciaFechamentoCupom CV="8501" Time="01-04-2017 15:35:10:491">
+		<incrementDiscount Time="01-04-2017 15:35:10:491">A</incrementDiscount>
+		<incrementDiscountType Time="01-04-2017 15:35:10:491">%</incrementDiscountType>
+		<incrementDiscountValue Time="01-04-2017 15:35:10:491">00</incrementDiscountValue>
+		<Return Time="01-04-2017 15:35:11:193">0</Return>
+	</Bematech_FI_IniciaFechamentoCupom>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:11:785">
+		<ACK Time="01-04-2017 15:35:11:785">0</ACK>
+		<ST1 Time="01-04-2017 15:35:11:785">0</ST1>
+		<ST2 Time="01-04-2017 15:35:11:785">0</ST2>
+		<ST3 Time="01-04-2017 15:35:11:785">0</ST3>
+		<Return Time="01-04-2017 15:35:11:785">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_EfetuaFormaPagamento CV="8501" Time="01-04-2017 15:35:11:785">
+		<paymentForm Time="01-04-2017 15:35:11:785">Dinheiro</paymentForm>
+		<value Time="01-04-2017 15:35:11:785">10,00</value>
+		<Return Time="01-04-2017 15:35:13:033">0</Return>
+	</Bematech_FI_EfetuaFormaPagamento>
+	<Bematech_FI_EfetuaFormaPagamento CV="8501" Time="01-04-2017 15:35:13:033">
+		<paymentForm Time="01-04-2017 15:35:13:033">1 - CARTAO DEBITO</paymentForm>
+		<value Time="01-04-2017 15:35:13:033">10,60</value>
+		<Return Time="01-04-2017 15:35:13:033">Erro no parâmetro forma de pagamento</Return>
+	</Bematech_FI_EfetuaFormaPagamento>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:13:033">
+		<ACK Time="01-04-2017 15:35:13:033">0</ACK>
+		<ST1 Time="01-04-2017 15:35:13:033">0</ST1>
+		<ST2 Time="01-04-2017 15:35:13:033">0</ST2>
+		<ST3 Time="01-04-2017 15:35:13:033">0</ST3>
+		<Return Time="01-04-2017 15:35:13:033">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_DadosSoftwareHouseSAT CV="8501" Time="01-04-2017 15:35:13:033">
+		<CNPJ Time="01-04-2017 15:35:13:033">19823348000107</CNPJ>
+		<softwareSignature Time="01-04-2017 15:35:13:033">QEd6c058zUvRZ/To5BRZcLj6a1bwu0bx1pRhYyR50k2DxYnxcrnt9dfazWDjyaWQYS8/YB1xQFnmxXOJOkY+/YbKXn0g+SODZ1ptlzL0s1vTQxn/qKZCPcSC+vaBp7J09kNsegffT5JIF93QcXfo+IoM52zALIGz+rwE/BA5vZUVA4YnF3bl8NztG+08W7Ziz1s+GHfc+UGBxAIefAsb8bNPdJFj32fcwLCmhvTdAg0VpKi9F6rdiOkcYVo9I2Ej0tZIAiGxUO84dWm8M28hF+Rmr+QlwRPnKbWGNCGT3Gy1pQzYk28wM/IuaDPEcMrkVrQWeXHEZA22zhMYvA+6ww==</softwareSignature>
+		<Return Time="01-04-2017 15:35:31:441">0</Return>
+	</Bematech_FI_DadosSoftwareHouseSAT>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:31:441">
+		<ACK Time="01-04-2017 15:35:31:441">0</ACK>
+		<ST1 Time="01-04-2017 15:35:31:441">0</ST1>
+		<ST2 Time="01-04-2017 15:35:31:441">0</ST2>
+		<ST3 Time="01-04-2017 15:35:31:441">0</ST3>
+		<Return Time="01-04-2017 15:35:31:441">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_TerminaFechamentoCupom CV="8501" Time="01-04-2017 15:35:31:441">
+		<message Time="01-04-2017 15:35:31:441">OBRIGADO E VOLTE SEMPRE!</message>
+		<Bematech_FI_ModeloImpressora CV="8501" Time="01-04-2017 15:35:31:441">
+			<Bematech_FI_NumeroSerieMFD CV="8501" Time="01-04-2017 15:35:31:441">
+				<Return Time="01-04-2017 15:35:31:909">0</Return>
+			</Bematech_FI_NumeroSerieMFD>
+			<ModeloImpressora Time="01-04-2017 15:35:31:909"></ModeloImpressora>
+			<Return Time="01-04-2017 15:35:31:909">0</Return>
+		</Bematech_FI_ModeloImpressora>
+		<Return Time="01-04-2017 15:35:31:909">0</Return>
+	</Bematech_FI_TerminaFechamentoCupom>
+	<Bematech_FI_RetornoImpressoraMFD Time="01-04-2017 15:35:32:799">
+		<ACK Time="01-04-2017 15:35:32:799">0</ACK>
+		<ST1 Time="01-04-2017 15:35:32:799">0</ST1>
+		<ST2 Time="01-04-2017 15:35:32:799">0</ST2>
+		<ST3 Time="01-04-2017 15:35:32:799">0</ST3>
+		<Return Time="01-04-2017 15:35:32:799">1</Return>
+	</Bematech_FI_RetornoImpressoraMFD>
+	<Bematech_FI_Sangria CV="8501" Time="01-04-2017 15:36:24:700">
+		<value Time="01-04-2017 15:36:24:700">1.000,00</value>
+		<Return Time="01-04-2017 15:36:25:948">0</Return>
+	</Bematech_FI_Sangria>

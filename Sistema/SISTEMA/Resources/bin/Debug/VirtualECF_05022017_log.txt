@@ -1,0 +1,5 @@
+05-02-2017 13:43:04.061 [INFO]  - ###Iniciando VirtualECF4000###
+05-02-2017 14:10:32.841 [INFO]  - ###Iniciando VirtualECF4000###
+05-02-2017 14:17:52.230 [INFO]  - ###Iniciando VirtualECF4000###
+05-02-2017 14:33:26.946 [INFO]  - ###Iniciando VirtualECF4000###
+05-02-2017 14:45:08.136 [INFO]  - ###Iniciando VirtualECF4000###

@@ -1,0 +1,110 @@
+﻿@model PdvStock.Models.Pdv
+
+@{
+     ViewBag.Title = "Detalhes Pdv";
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "", null, new {  }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+
+
+<div class="row">
+    <div class="col-md-10">
+        <markremove>
+        @{
+        var partial = @"
+        @model PdvStock.Models.Pdv
+        <!-- START PARTIAL _DETAILS -->
+			<table class=""table table-bordered table-condensed table-hover table-responsive table-striped"">
+				<tbody>
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Clientes.Nome)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Clientes.Nome)
+								</td>
+							</tr>
+
+																																<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Cpf)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Cpf)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.ValorTotal)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.ValorTotal)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.NumeroVenda)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.NumeroVenda)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.DataVenda)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.DataVenda)
+								</td>
+							</tr>
+
+									</tbody>
+			</table>
+		<!-- END PARTIAL _DETAILS --> ";
+if (HttpContext.Current != null)
+        {
+        string path = HttpContext.Current.Server.MapPath(this.VirtualPath);
+        path = path.Replace(System.IO.Path.GetFileName(path), "_" + System.IO.Path.GetFileName(path));
+
+        FileStream fs = null;
+        StreamWriter sw = null;
+        if (!File.Exists(path))
+        {
+        fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write, FileShare.ReadWrite);
+        sw = new StreamWriter(fs,System.Text.Encoding.UTF8);
+        sw.Write(partial);
+        sw.Close();
+        sw.Dispose();
+        fs.Close();
+        fs.Dispose();
+        }
+        path = path.Replace(System.IO.Path.GetFileName(path), System.IO.Path.GetFileName(path).Replace("_", ""));
+
+            string removeMarkers = File.ReadAllText(path);
+            var regex = new System.Text.RegularExpressions.Regex(@"<markremove>[\s\S]*?<\/markremove>");
+            removeMarkers = regex.Replace(removeMarkers, "");
+            File.Delete(path);
+            fs = new FileStream(path, FileMode.CreateNew, FileAccess.Write, FileShare.ReadWrite);
+            sw = new StreamWriter(fs,System.Text.Encoding.UTF8);    
+            sw.Write(removeMarkers);
+            sw.Close();
+            sw.Dispose();
+            fs.Close();
+            fs.Dispose();
+        }
+        }
+        </markremove>
+		@Html.Partial("_Details", Model)
+    </div>
+</div>
+
+<p>
+	@Html.Raw(@Html.ActionLink("[icon]Editar", "Edit", null, new { id = Model.Id }, new { @class = "btn btn-primary" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-pencil'></i>&ensp;"))
+</p>

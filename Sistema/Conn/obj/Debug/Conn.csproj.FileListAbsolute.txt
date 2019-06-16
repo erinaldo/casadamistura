@@ -1,0 +1,67 @@
+D:\PROJETOS\ERNANI\SISTEMA\Conn\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\Conn\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.dll
+E:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.dll
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura\Conn\obj\Debug\Conn.dll
+F:\MARCA TI\ERNANI\CasaDaMistura\Conn\obj\Debug\Conn.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Conn\obj\Debug\Conn.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Conn\obj\Debug\Conn.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Conn\obj\Debug\Conn.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Conn\obj\Debug\Conn.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Conn.dll
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\A MARIANA\Sistema\Conn\obj\Debug\Conn.dll
+D:\PROJETOS\A MARIANA\Sistema\Conn\obj\Debug\Conn.pdb
+D:\PROJETOS\A MARIANA\Sistema\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Conn.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Conn.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Conn\obj\Debug\Conn.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Conn\obj\Debug\Conn.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.pdb
+F:\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.dll
+F:\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.pdb
+F:\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Conn\obj\Debug\Conn.pdb
+E:\Sistema\SISTEMA\bin\Debug\Conn.dll
+E:\Sistema\SISTEMA\bin\Debug\Conn.pdb
+E:\Sistema\Conn\obj\Debug\Conn.csprojAssemblyReference.cache
+E:\Sistema\Conn\obj\Debug\Conn.csproj.CoreCompileInputs.cache
+E:\Sistema\Conn\obj\Debug\Conn.csproj.CopyComplete
+E:\Sistema\Conn\obj\Debug\Conn.dll
+E:\Sistema\Conn\obj\Debug\Conn.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.dll
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.dll
+D:\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Conn\obj\Debug\Conn.pdb

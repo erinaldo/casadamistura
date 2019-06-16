@@ -1,0 +1,81 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output extension=".cshtml" #>
+<#@ include file="Imports.include.t4" #>
+@model <#= ViewDataTypeName #>
+<#
+// The following chained if-statement outputs the file header code and markup for a partial view, a view using a layout page, or a regular view.
+if(IsPartialView) {
+#>
+
+<#
+} else if(IsLayoutPageSelected) {
+#>
+
+@{
+    ViewBag.Title = "Excluír <#= ViewDataTypeShortName #>";
+<#
+if (!String.IsNullOrEmpty(LayoutPageFile)) {
+#>
+    Layout = "<#= LayoutPageFile#>";
+<#
+}
+#>
+}
+
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "Index", null, new { }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+<#
+} else {
+#>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title><#= ViewName #></title>
+</head>
+<body>
+<#
+    PushIndent("    ");
+}
+#>
+<h4>Tem certeza que deseja excluír este registro?</h4>
+<div>
+
+ <div class="row">
+        <div class="col-md-10">
+           @Html.Partial("_Details", Model)
+        </div>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <p>
+            <button type="submit" class="btn btn-danger"><i class="fa fa-remove"></i>&ensp;Excluír</button>
+        </p>
+    }
+</div>
+<#
+// The following code closes the tag used in the case of a view using a layout page and the body and html tags in the case of a regular view page
+#>
+<#
+if(!IsPartialView && !IsLayoutPageSelected) {
+    ClearIndent();
+#>
+</body>
+</html>
+<#
+}
+#>
+<#@ include file="ModelMetadataFunctions.cs.include.t4" #>

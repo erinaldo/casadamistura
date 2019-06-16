@@ -1,0 +1,108 @@
+
+/***************
+    Nav List
+***************/
+.side-nav {
+  position: fixed;
+  width: 240px;
+  left: -105%;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  height: calc(100% + 60px);
+  height: -moz-calc(100%);
+  padding-bottom: 60px;
+  background-color: rgba(122,193,67,0.9);
+  z-index: 999;
+  overflow-y: auto;
+  will-change: left; }
+  .side-nav.right-aligned {
+    will-change: right;
+    right: -105%;
+    left: auto; }
+  .side-nav .collapsible {
+    margin: 0; }
+  .side-nav li {
+    float: none; }
+    .side-nav li:hover, .side-nav li.active {
+      background-color: #ddd; }
+ 
+
+.drag-target {
+  height: 100%;
+  width: 25px;
+  position: fixed;
+  top: 0;
+  z-index: 998; }
+
+.side-nav.fixed a {
+  display: block;
+  padding: 0 15px;
+  color: #444; }
+
+.side-nav.fixed {
+  left: 0;
+  position: fixed; }
+  .side-nav.fixed.right-aligned {
+    right: 0;
+    left: auto; }
+
+@media only screen and (max-width : 767px) {
+    .side-nav.fixed {
+    left: -105%; }
+    .side-nav.fixed.right-aligned {
+      right: -105%;
+      left: auto; } 
+
+}
+
+.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active {
+  background-color: #ee6e73; }
+  .side-nav .collapsible-body li.active a, .side-nav.fixed .collapsible-body li.active a {
+    color: #fff; }
+
+#sidenav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 997;
+      will-change: opacity; 
+}
+@media (min-width : 767px) {
+    #sidenav-overlay {
+        display:none;
+    }
+}
+.side-nav .dropdown.open,.side-nav .dropdown , .side-nav .dropdown:hover,.side-nav .dropdown.open:hover , .side-nav .dropdown-menu, .side-nav .dropdown-menu:hover{
+    background-color: transparent !important;
+}
+.side-nav .nav {
+    width:100%;
+}
+.side-nav i {
+    font-size:22px;
+    width:25px;
+    text-align:center;
+}
+.side-nav span{
+    vertical-align:middle;
+}
+
+.side-nav-header {
+    background-color: #EAEAEA;
+    height: 130px;
+    width: 100%;
+    /*background-image: url("../../Images/serp.png");
+    background-size:cover;
+    background-repeat:no-repeat;*/
+    padding: 5px;
+    text-align:center;
+}
+.side-nav-header span , .side-nav-header p .side-nav-header i , .side-nav-header a{
+    /*color:white;*/
+    text-align:center;
+    vertical-align:middle;
+}

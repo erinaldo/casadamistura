@@ -1,0 +1,65 @@
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.Form1.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\Comanda.exe.config
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\Comanda.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\Comanda.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\Conn.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\MySql.Data.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\bin\Debug\Conn.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Comanda\obj\Debug\Comanda.csprojResolveAssemblyReference.cache
+E:\Sistema\Comanda\bin\Debug\Comanda.exe.config
+E:\Sistema\Comanda\bin\Debug\Comanda.exe
+E:\Sistema\Comanda\bin\Debug\Comanda.pdb
+E:\Sistema\Comanda\bin\Debug\Conn.dll
+E:\Sistema\Comanda\bin\Debug\MySql.Data.dll
+E:\Sistema\Comanda\bin\Debug\Conn.pdb
+E:\Sistema\Comanda\obj\Debug\Comanda.csprojAssemblyReference.cache
+E:\Sistema\Comanda\obj\Debug\Comanda.Form1.resources
+E:\Sistema\Comanda\obj\Debug\Comanda.Properties.Resources.resources
+E:\Sistema\Comanda\obj\Debug\Comanda.csproj.GenerateResource.cache
+E:\Sistema\Comanda\obj\Debug\Comanda.csproj.CoreCompileInputs.cache
+E:\Sistema\Comanda\obj\Debug\Comanda.csproj.CopyComplete
+E:\Sistema\Comanda\obj\Debug\Comanda.exe
+E:\Sistema\Comanda\obj\Debug\Comanda.pdb
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe.config
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.pdb
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.dll
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\MySql.Data.dll
+D:\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.pdb
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Form1.resources
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.exe
+D:\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe.config
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\MySql.Data.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Form1.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Properties.Resources.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe.config
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Comanda.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\MySql.Data.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\bin\Debug\Conn.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Form1.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\Comanda\obj\Debug\Comanda.pdb

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<PdvStock.Models.Fornecedor>
+@using GridMvc.Html
+@using GridMvc.Sorting
+@using GridMvc.Filtering
+
+@{
+    ViewBag.Title = "Fornecedor";
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Cadastrar", "Create",null,null, new { @class = "btn btn-success" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-plus'></i>&ensp;"))
+</p>
+<hr />
+@Html.Grid(Model).Columns(
+        columns =>
+        {
+
+		columns.Add(model => model.Nome).Titled("Nome").Filterable(true).Sortable(true);
+		columns.Add(model => model.Cpf).Titled("Cpf").RenderValueAs(t=>(t.Cpf==null?t.Cnpj:t.Cpf)).Filterable(true).Sortable(true);
+		columns.Add(model => model.Status).Titled("Status").Filterable(true).Sortable(true);
+		columns.Add(model => model.Celular).Titled("Celular").Filterable(true).Sortable(true);
+		columns.Add(model => model.Email).Titled("Email").Filterable(true).Sortable(true);
+		columns.Add(model => model.DataCadastro).Titled("DataCadastro").Filterable(true).Sortable(true);
+
+		columns.Add().Titled("Ações").SetWidth("10%").RenderValueAs(
+                t => "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Detalhes\" class='black' href='" + @Url.Action("Details", null, new { id = t.Id }) + "' ><i class='fa fa-eye'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Editar\" class='black' href='" + @Url.Action("Edit", null, new { id = t.Id }) + "'><i class='fa fa-pencil'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Excluír\" class='black' href='" + @Url.Action("Delete", null, new { id = t.Id }) + "'><i class='fa fa-remove'></i></a></span>"
+               ).Sanitized(false).Encoded(false).Css("text-center");
+			   
+}).WithPaging(20).SetLanguage("ptBR").EmptyText("Nenhum registro encontrado").WithMultipleFilters()
+

@@ -1,0 +1,159 @@
+﻿@using PdvStock.Utils
+@model PdvStock.Models.Pdv
+
+@{
+    ViewBag.Title = @Resources.Resource.TituloAba;
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "Index", null,null, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="codproduto">CÓD. PRODUTO:</label>
+            <input type="text" class="form-control input-lg" id="codproduto" placeholder="CÓD PRODUTO">
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-6">
+        <div class="form-group">
+            <label for="produto">PRODUTO:</label>
+            <input type="text" class="form-control input-lg" id="produto" placeholder="NOME PRODUTO" readonly>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-2">
+        <div class="form-group">
+            <label for="valorunit">VALOR UNITÁRIO:</label>
+            <input type="text" class="form-control input-lg" id="valorunit" placeholder="VALOR UNITÁRIO" readonly>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="quantidade">QUANTIDADE:</label>
+            <input type="text" class="form-control input-lg" id="quantidade" placeholder="QTDE.">
+        </div>
+        @*<img src="http://theburgers.com.br/wp-content/uploads/2015/04/coca-cola-lata.jpg" style="width:250px" class="img-thumbnail" />*@
+        <img src="http://solutioncontabilidade.com/img/upload/source/pao-congelado.jpg" style="width:250px" class="img-thumbnail" />
+        
+    </div>
+    <div class="col-xs-6 col-md-9" style="height:350px;overflow-y:auto;">
+        <table class="table table-striped"> 
+            <thead> 
+                <tr> 
+                    <th>#</th> 
+                    <th>CÓD</th> 
+                    <th>ITEM</th>
+                    <th>QTDE</th>
+                    <th>VALOR UNIT.</th>
+                    <th>DESCONTO</th>
+                    <th>VALOR TOTAL</th>
+                </tr> 
+            </thead> 
+            <tbody>
+                @for (int i = 1; i < 501; i++)
+                {
+                    <tr>
+                        <th>#</th>
+                        <td>@i</td>
+                        <td>OttoOttoOttoOttoOttoOttoOttoOttoOtto</td>
+                        <td>1</td>
+                        <td>R$ 5,00</td>
+                        <td>R$ 0,00</td>
+                        <td>R$ 5,00</td>
+                    </tr>
+                }
+             </tbody> 
+        </table>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="quantidade">TOTAL VENDA:</label>
+            <input type="text" class="form-control input-lg" id="quantidade" placeholder="TOTAL." readonly>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group has-error">
+            <label for="quantidade">DESCONTOS:</label>
+            <input type="text" class="form-control input-lg" id="quantidade" placeholder="DESCONTOS." readonly>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-6">
+        <p class="bg-info" style="font-size:medium;color:darkblue;">FECHA VENDA (F5) &emsp; CANCELA VENDA (F6)&emsp; DESCONTO (F7)&emsp; EXCLUI ITEM (F9)&emsp; PESQUISA PRODUTO (F8)
+        &emsp; VENDEDOR: @DadosUsuario.GetNome() &emsp; VENDA Nº: @ViewBag.NumeroVenda &emsp; QTDE ITENS (F10)&emsp; ADICIONA PRODUTO (F11)
+        </p>
+    </div>
+</div>
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @Html.ValidationSummary(false, "", new { @class = "alert alert-danger" })
+
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ClientesId, "ClientesId", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ClientesId", null,@Resources.Resource.ChosenSelectOne, htmlAttributes: new { @class = "form-control chosen" })
+                @Html.ValidationMessageFor(model => model.ClientesId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Cpf, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Cpf, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Cpf, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ValorTotal, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ValorTotal, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ValorTotal, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.NumeroVenda, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.NumeroVenda, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.NumeroVenda, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DataVenda, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+			
+				@Html.EditorFor(model => model.DataVenda, new { htmlAttributes = new { @class = "form-control DatePickerAttr" } })
+                @Html.ValidationMessageFor(model => model.DataVenda, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-save"></i>&ensp;
+                    @Resources.Resource.Cadastrar
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

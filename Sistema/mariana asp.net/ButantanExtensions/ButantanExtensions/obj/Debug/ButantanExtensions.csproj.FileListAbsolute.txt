@@ -1,0 +1,30 @@
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.dll
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.pdb
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.csprojResolveAssemblyReference.cache
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.dll
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\desenvolvimento\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.Helpers.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.Razor.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.WebPages.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.Helpers.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.Razor.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.WebPages.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\Microsoft.Web.Infrastructure.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.csprojResolveAssemblyReference.cache
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\ButantanExtensions\ButantanExtensions\bin\Debug\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\ButantanExtensions\ButantanExtensions\obj\Debug\ButantanExtensions.pdb

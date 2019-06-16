@@ -1,0 +1,35 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output extension=".cshtml" #>
+<#@ include file="Imports.include.t4" #>
+@model <#= ViewDataTypeName #>
+
+        <table class="table table-bordered table-condensed table-hover table-responsive table-striped">
+            <tbody>
+				<#
+				foreach (PropertyMetadata property in ModelMetadata.Properties) {
+					if (property.Scaffold && !property.IsPrimaryKey && !property.IsForeignKey) {
+				#>
+				<#
+						// We do not want to show any association properties for which there is
+						// no associated foreign key.
+						if (property.IsAssociation && GetRelatedModelMetadata(property) == null) {
+							continue;
+						}
+				#>
+						<tr>
+							<th>
+								@Html.DisplayNameFor(model => model.<#= GetValueExpression(property) #>)
+							</th>
+							<td>
+								@Html.DisplayFor(model => model.<#= GetValueExpression(property) #>)
+							</td>
+						</tr>
+
+				<#
+					}
+				}
+				#>
+            </tbody>
+        </table>
+    
+<#@ include file="ModelMetadataFunctions.cs.include.t4" #>

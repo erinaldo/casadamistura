@@ -1,0 +1,321 @@
+﻿@using PdvStock.Utils
+@model PdvStock.Models.Pdv
+<script src="~/Scripts/jquery.maskMoney.js"></script>
+@{
+    ViewBag.Title = @Resources.Resource.TituloAba;
+    //Layout = "~/Views/Shared/_LayoutPdv.cshtml";
+    Layout = "~/Views/Shared/_LayoutComanda.cshtml";
+}
+<style>
+    tbody {
+    display:block;
+    height:200px;
+    overflow:auto;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+thead {
+    width: calc( 100% - 1em )
+}
+
+</style>
+
+@using (Html.BeginForm("Create", "Pdv", FormMethod.Post, new { id = "PdvForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body body">
+                    ...
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="codproduto">CÓD. PRODUTO:</label>
+            <input type="text" class="form-control input-lg" id="codproduto" name="codproduto" placeholder="CÓD PRODUTO">
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-6">
+        <div class="form-group">
+            <label for="produto">PRODUTO:</label>
+            <input type="text" class="form-control input-lg" id="produto" placeholder="NOME PRODUTO" readonly>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-2">
+        <div class="form-group">
+            <label for="valorunit">VALOR UNITÁRIO:</label>
+            <input type="text" class="form-control input-lg" id="valorunit" placeholder="VALOR UNITÁRIO" readonly>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="quantidade">QUANTIDADE:</label>
+            <input type="text" class="form-control input-lg" id="quantidade" name="quantidade" value="1" placeholder="QTDE.">
+        </div>
+        @*<img src="http://theburgers.com.br/wp-content/uploads/2015/04/coca-cola-lata.jpg" style="width:250px" class="img-thumbnail" />*@
+        <img src="~/UploadPhoto/transparent.png" id="imgprod" style="width:250px" class="img-thumbnail" />
+        
+    </div>
+    <div class="col-xs-6 col-md-9" style="height:350px;overflow-y:auto;">
+        <table class="table table-striped header-fixed" id="tblitens"> 
+            <thead> 
+                <tr> 
+                    <th>#</th> 
+                    <th>CÓD</th> 
+                    <th>ITEM</th>
+                    <th>QTDE</th>
+                    <th>VALOR UNIT.</th>
+                    <th>DESCONTO</th>
+                    <th>VALOR TOTAL</th>
+                    <th>#</th> 
+                </tr> 
+            </thead> 
+            <tbody>
+                @*@for (int i = 1; i < 2; i++)
+                {
+                    <tr>
+                        <th>@i</th>
+                        <td><input type="hidden" name="Produto[]" /></td>
+                        <td>OttoOttoOttoOttoOttoOttoOttoOttoOtto</td>
+                        <td>1</td>
+                        <td>5,00</td>
+                        <td>0,00</td>
+                        <td>5,00</td>
+                    </tr>
+                }*@
+             </tbody> 
+        </table>
+    </div>
+</div>
+<hr />
+<div class="row">
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group">
+            <label for="quantidade">TOTAL VENDA:</label>
+            <input type="text" class="form-control input-lg" id="totalvenda"  name="totalvenda" placeholder="TOTAL." readonly>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="form-group has-error">
+            <label for="quantidade">DESCONTOS:</label>
+            <input type="text" class="form-control input-lg valor" id="desconto" name="desconto" value="0" placeholder="DESCONTOS." >
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-6">
+        <p class="bg-info" style="font-size:medium;color:darkblue;">FECHA VENDA (F2) &emsp; CANCELA VENDA (F5)&emsp; DESCONTO (D)&emsp; EXCLUI ITEM (del)&emsp; PESQUISA PRODUTO (Alt+5)
+        &emsp; VENDEDOR: @DadosUsuario.GetNome() &emsp; VENDA Nº: @ViewBag.NumeroVenda &emsp; QTDE ITENS (Alt+6)&emsp; ADICIONA PRODUTO (Alt+7)
+        </p>
+    </div>
+</div>
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+    $(".valor").maskMoney({ thousands: '.', decimal: ',', precision: 2, allowZero: true });
+    $("#codproduto").focus();
+    var i = 1;
+    $(document).keyup(function (e) {
+        console.log(e.keyCode);
+        switch (e.which) {
+            case 113: //f2
+                $("#myModalLabel").html("FECHAR VENDA");
+                $('#myModal').modal({ show: true });
+                $(".body").load('@Url.Action("Create", "PdvPagamento", new { })');
+                $('#myModal').on('shown.bs.modal', function () {
+                    $("#FormaPgtoId").ready(function () {
+                        $("#FormaPgtoId").focus();
+                        $("#QtdeParcela").val('1');
+                        CalcularAPagar();
+                    });
+                });
+                break;
+            case 13: //enter
+                if (e.which == 13) {
+                    if ($("#Valor").is(":focus")) {
+                        if (parseFloat($('#Valor').val().replace('.', '').replace(',', '.')) > 0) {
+                            var linhatabela = "<tr>";
+                            linhatabela += "<td><input type='hidden' name='FormaPgtoId[]' value='" + $('#FormaPgtoId').val() + "'/>" + $('#FormaPgtoId').val() + "</td>";
+                            linhatabela += "<td><input type='hidden' name='Valor[]' value='" + $('#Valor').val() + "'/>" + $('#Valor').val() + "</td>";
+                            linhatabela += "<td><input type='hidden' name='QtdeParcela[]' value='" + $('#QtdeParcela').val() + "'/>" + $('#QtdeParcela').val() + "</td>";
+                            linhatabela += '<td class="actions"><button class="btn btn-danger" onclick="RemoveTableRow(this)" type="button">Retirar</button></td>';
+                            linhatabela += "</tr>";
+                            console.log(linhatabela);
+                            $("#tablepgto tbody").append(linhatabela);
+                            Calcular();
+                            $('#Valor').val(0);
+                            $('#QtdeParcela').val(1)
+                        }
+                    }
+                    if ($("#codproduto").is(":focus")) {
+                        $.ajax({
+                            url: "@Url.Action("SearchProductAjax", "Pdv", new { })",
+                            type: "post",
+                            data: { CodiBarras: $("#codproduto").val() },
+                            success: function (response) {
+                                console.log(response.CodBarras);
+                                $("#produto").val(response.Nome);
+                                $("#valorunit").val(response.PrecoVenda);
+                                var root = '@Url.Content("~/")';
+                                $("#imgprod").attr('src', root + response.Foto.replace('~', ''));
+                                var linhatabela = "<tr id=" + i + ">";
+                                linhatabela += "<td >" +i + "</td>";
+                                linhatabela += "<td><input type='hidden' name='ProdutoId[]' value='" + response.Id + "'/>" + response.CodBarras + "</td>";
+                                linhatabela += "<td>" + response.Nome + "</td>";
+                                linhatabela += "<td><input type='hidden' name='Quantidade[]' value='" + $("#quantidade").val() + "'/>" + $("#quantidade").val() + "</td>";
+                                linhatabela += "<td><input type='hidden' name='ValorUnitario[]' value='" + response.PrecoVenda.toString().replace('.', ',') + "'/>" + response.PrecoVenda.toString().replace('.', ',') + "</td>";
+                                linhatabela += "<td><input type='hidden' name='Desconto[]' value='" + $("#desconto").val() + "'/>" + $("#desconto").val() + "</td>";
+                                var subtotal = (parseFloat(response.PrecoVenda.toString()) - parseFloat(($("#desconto").val() == '' ? '0' : $("#desconto").val()).replace('.', '').replace(',', '.')));
+                                linhatabela += "<td><input type='hidden' name='SubTotal[]' value='" + subtotal.toString().replace('.', ',') + "'/>" + subtotal.toString().replace('.', ',') + "</td>";
+                                linhatabela += '<td class="actions"><button class="btn btn-danger" onclick="RetirarItem(' + i + ')" type="button"><i class="fa fa-trash" aria-hidden="true"></i></button></td>';
+                                linhatabela += "</tr>";
+                                $("#tblitens tbody").append(linhatabela);
+                                CalcularAPagar();
+                                i++;
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            //console.log(textStatus, errorThrown);
+                            alert('Produto não encontrado');
+                        },
+                        complete: function () {
+                            $("#codproduto").val('').focus();
+                        }
+
+                    });
+                    }
+                    if ($("#Cpf").is(":focus")) {
+                        $("#Valor").focus();
+                    }
+                    if ($("#desconto").is(":focus")) {
+                        $("#codproduto").val('').focus();
+                    }
+                }
+                break;
+            case 27: //esc
+                $("#myModal").modal("hide");
+                break;
+            case 46: //del
+                if($('#myModal').hasClass('in')){
+                    RemoveTableRow();
+                } else {
+                    $("#myModalLabel").html("INFORME NUMERO DO ITEM QUE DESEJA RETIRAR");
+                    var html = '<div class="form-group"> ' +
+                        '<label for="numitem">NUMERO DO ITEM</label>' +
+                        '<input autofocus type="number" class="form-control" id="numitem"></div>';
+                    html += '<button type="button" onclick="RetirarItem($(\'#numitem\').val());$(\'#myModal\').modal(\'hide\');" class="btn btn-default">Retirar</button>';
+                    $(".body").html(html);
+                    $('#myModal').modal({ show: true });
+                    $('#myModal').on('shown.bs.modal', function () {
+                        $('#numitem').focus();
+                    })
+                   
+                    
+                }
+                break;
+            case 118: //F7
+                $(this).trigger("keydown", [9]);
+                $("#Cpf").focus();
+                break;
+            case 68: //LETRA D
+                $("#desconto").focus();
+                break;
+            case 119: //F8
+                $.ajax({
+                    url: "@Url.Action("CreateAjax", "Pdv", new { })",
+                    type: "post",
+                    data: $("#PdvForm").serialize(),
+                    success: function (response) {
+                        if (response.save == true) {
+                            alert('VENDA CONCLUÍDA COM SUCESSO')
+                            location.reload();
+                        } else {
+                            console.log(response);
+                        }
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus, errorThrown);
+                        console.log(response);
+                    }
+                });
+                break;
+            case 121: //F10
+                $(".modal-dialog").css("width", "90%");
+                $("#myModalLabel").html("Localiza Produto");
+                $(".body").load("@Url.Action("_SearchProductPdv", "Produtos", new { })");
+                $("#myModal").modal("show");
+                break;
+        }
+    });
+
+
+    RemoveTableRow = function () {
+        var tr = $("#tablepgto tbody tr").last();
+        tr.fadeOut(400, function () {
+            tr.remove();
+            Calcular();
+        });
+        return false;
+
+    };
+
+    RetirarItem = function (idtr) {
+
+        if (idtr == null) {
+            var tr = $("#tblitens tbody tr").last();
+        } else {
+            var tr = $("#" + idtr);
+            console.log(idtr);
+        }
+        
+        tr.fadeOut(400, function () {
+            tr.remove();
+            CalcularAPagar();
+        });
+
+        return false;
+    };
+    
+
+    function Calcular() {
+        var valor = 0;
+        $('#tablepgto > tbody  > tr').each(function () {
+            var $tds = $(this).find('td');
+            valor += parseFloat($tds.eq(1).text().replace('.', '').replace(',', '.'));
+            //console.log($tds.eq(1).text().replace('.', '').replace(',', '.'));
+        });
+        var valorapagar = parseFloat($('#ValorTotal').val());
+        var troco = (valor - valorapagar);
+        $('#TotalPago').val(valor);
+        $('#Troco').val(troco);
+    }
+
+    function CalcularAPagar() {
+        var valorpagar = 0;
+        $('#tblitens > tbody  > tr').each(function () {
+            var $tds = $(this).find('td');
+            valorpagar += parseFloat($tds.eq(6).text().replace('.', '').replace(',', '.'));
+            console.log($tds.eq(6).text());
+        });
+        $('#ValorTotal').val(valorpagar.toString().replace('.', ','));
+        $('#totalvenda').val(valorpagar.toString().replace('.',','));
+        $('#desconto').val('0');
+    }
+</script>

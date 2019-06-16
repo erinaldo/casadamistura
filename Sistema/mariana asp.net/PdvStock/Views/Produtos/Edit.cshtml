@@ -1,0 +1,306 @@
+﻿@model PdvStock.Models.Produtos
+<script src="~/Scripts/jquery.maskMoney.js"></script>
+@{
+    ViewBag.Title = "Editar Produtos";
+}
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Adicionar</h4>
+            </div>
+            <div class="modal-body modalbody">
+                <div align="center">
+                    <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                    <span class="sr-only">Aguarde Carregando...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "Index", null, null, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-arrow-left'></i>&ensp;"))
+</p>
+<hr />
+
+
+ @using (Html.BeginForm("Edit", "Produtos", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(false, "", new { @class = "alert alert-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="panel panel-default">
+            <div class="panel-heading">FOTO</div>
+            <div class="panel-body">
+                <img src="@(Model.Foto == null ? Url.Content("~/UploadPhoto/transparent.png") : Url.Content(Model.Foto))" width="150" id="photo" class="img-thumbnail" />
+            </div>
+        </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">PRODUTO</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.CodBarras, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.CodBarras, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.CodBarras, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12">
+                                           <div class="form-group">
+                                    <label class="control-label col-md-2" for="Fotos">Imagem Principal</label>
+                                    <div class="col-md-10 form-inline">
+                                        <div class="input-group">
+                                            <input id="Fotoupload" name="Fotoupload" type="file" style="display:none">
+                                            <input type="text" class="form-control" disabled="disabled" id="photoCover" placeholder="Arquivo">
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary" onclick="$('input[id=Fotoupload]').click();" type="button"><span class="fa fa-upload"></span>&nbsp;Carregar Foto</button>
+                                            </span>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">INFORMAÇÕES</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <a href="#" class="fornecedor" data-toggle="popover" data-trigger="hover" data-placement="top" title="Detalhes" data-content="CLIQUE AQUI PARA INSERIR UM NOVO FORNECEDOR"><label class="control-label col-md-2" for="FornecedorId">Fornecedor</label></a>
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("FornecedorId", null, @Resources.Resource.ChosenSelectOne, htmlAttributes: new { @class = "form-control chosen" })
+                                        @Html.ValidationMessageFor(model => model.FornecedorId, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <a href="#" class="subgrupo" data-toggle="popover" data-trigger="hover" data-placement="top" title="Detalhes" data-content="CLIQUE AQUI PARA INSERIR UM NOVO SUBGRUPO"><label class="control-label col-md-2" for="FornecedorId">SubGrupo</label></a>
+                                    <div class="col-md-10">
+                                        @Html.DropDownList("SubGrupoId", null, @Resources.Resource.ChosenSelectOne, htmlAttributes: new { @class = "form-control chosen" })
+                                        @Html.ValidationMessageFor(model => model.SubGrupoId, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Descricao, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Descricao, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Descricao, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Peso, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @{ Html.EnableClientValidation(false); }
+                                        @Html.EditorFor(model => model.Peso, new { htmlAttributes = new { @class = "form-control valor" } })
+                                        @{ Html.EnableClientValidation(true); }
+                                        @Html.ValidationMessageFor(model => model.Peso, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @{ Html.EnableClientValidation(false); }
+                <div class="panel panel-default">
+                    <div class="panel-heading">VALORES</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.PrecoCusto, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.PrecoCusto, new { htmlAttributes = new { @class = "form-control valor" } })
+                                        @Html.ValidationMessageFor(model => model.PrecoCusto, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.PrecoVenda, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.PrecoVenda, new { htmlAttributes = new { @class = "form-control valor" } })
+                                        @Html.ValidationMessageFor(model => model.PrecoVenda, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Lucro, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.Lucro, new { htmlAttributes = new { @Readonly = "Readonly", @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.Lucro, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.DescontoMaximo, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.DescontoMaximo, new { htmlAttributes = new { @class = "form-control valor" } })
+                                        @Html.ValidationMessageFor(model => model.DescontoMaximo, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @{ Html.EnableClientValidation(true); }
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">ESTOQUE</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.QuantidadeEstocada, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.QuantidadeEstocada, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.QuantidadeEstocada, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.QuantidadeMinima, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.QuantidadeMinima, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.QuantidadeMinima, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.QuantidadeMaxima, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EditorFor(model => model.QuantidadeMaxima, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.QuantidadeMaxima, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+                                    <div class="col-md-10">
+                                        @Html.EnumDropDownListFor(model => model.Status, @Resources.Resource.ChosenSelectOne, htmlAttributes: new { @class = "form-control chosen" })
+                                        @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fa fa-save"></i>&ensp;
+                            @Resources.Resource.Cadastrar
+                        </button>
+                    </div>
+                </div>
+            </div>
+                    }
+
+
+            @section Scripts {
+                @Scripts.Render("~/bundles/jqueryval")
+            }
+            <script>
+                $(".valor").maskMoney({ thousands: '.', decimal: ',', precision: 2, allowZero: true });
+
+                $('#Fotoupload').change(function () {
+                    $('#photoCover').val($(this).val());
+                    readURL(this);
+                });
+
+                $(".fornecedor").click(function () {
+                    $("#myModalLabel").html("Adicionar Fornecedor");
+                    $(".modalbody").load("@Url.Action("_AddFornecedor", "Fornecedor", new { })");
+                    $("#myModal").modal("show");
+                });
+
+                $(".subgrupo").click(function () {
+                    $("#myModalLabel").html("Adicionar SubGrupo");
+                    $(".modalbody").load("@Url.Action("_AddSubGrupo", "SubGrupo", new { })");
+                    $("#myModal").modal("show");
+                });
+
+                var pcusto = $("#PrecoCusto").val().split(',');
+                if (pcusto[1] != null && pcusto[1].length == 1) {
+                    $("#PrecoCusto").val($("#PrecoCusto").val() + '0');
+                }
+
+                var pvenda = $("#PrecoVenda").val().split(',');
+                if (pvenda[1] != null && pvenda[1].length == 1) {
+                    $("#PrecoVenda").val($("#PrecoVenda").val() + '0');
+                }
+
+                $("#PrecoCusto").blur(function () {
+                    calcular();
+                });
+
+                $("#PrecoVenda").blur(function () {
+                    calcular();
+                });
+
+                function calcular() {
+                    var precovenda = parseFloat($("#PrecoVenda").val() == "" ? 0 : $("#PrecoVenda").val().replace(".", "").replace(",", "."));
+                    var precocusto = parseFloat($("#PrecoCusto").val() == "" ? 0 : $("#PrecoCusto").val().replace(".", "").replace(",", "."));
+                    var total = parseFloat(precovenda - precocusto);
+                    $("#Lucro").val(total.toString().replace(".", ","));
+                }
+
+                function readURL(input) {
+
+                    if (input.files && input.files[0]) {
+                        var reader = new FileReader();
+
+                        reader.onload = function (e) {
+                            $('#photo').attr('src', e.target.result);
+                        }
+                        reader.readAsDataURL(input.files[0]);
+                    }
+                }
+
+            </script>

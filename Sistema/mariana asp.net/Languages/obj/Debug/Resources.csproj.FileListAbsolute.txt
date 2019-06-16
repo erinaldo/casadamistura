@@ -1,0 +1,26 @@
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\bin\Debug\Resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\bin\Debug\Resources.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\bin\Debug\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\bin\Debug\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.Resource.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.Resource.es-ES.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.Resource.en-US.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\Languages\obj\Debug\Resources.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\bin\Debug\Resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\bin\Debug\Resources.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\bin\Debug\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\bin\Debug\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.Resource.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.Resource.es-ES.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.Resource.en-US.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\Languages\obj\Debug\Resources.pdb

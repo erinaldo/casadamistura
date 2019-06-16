@@ -1,0 +1,74 @@
+﻿@model PdvStock.Models.FormaPgto
+<script src="~/Scripts/jquery.maskMoney.js"></script>
+@{
+    ViewBag.Title = "Editar Forma Pgto";
+}
+
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "Index", null, null, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-arrow-left'></i>&ensp;"))
+</p>
+<hr />
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(false, "", new { @class = "alert alert-danger" })
+        @Html.HiddenFor(model => model.Id)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Nome, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Nome, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MaxParcela, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MaxParcela, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MaxParcela, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.JurosAcrescidos, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @{ Html.EnableClientValidation(false); }
+                @Html.EditorFor(model => model.JurosAcrescidos, new { htmlAttributes = new { @class = "form-control valor" } })
+                @{ Html.EnableClientValidation(true); }
+                @Html.ValidationMessageFor(model => model.JurosAcrescidos, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <button type="submit" class="btn btn-success">
+                    <i class="fa fa-save"></i>&ensp;
+                    @Resources.Resource.Atualizar
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+    $(".valor").maskMoney({ thousands: '.', decimal: ',', allowZero: true });
+
+    var juros = $("#JurosAcrescidos").val().split(',');
+    console.log(juros);
+    if (juros[1] != null && juros[1].length == 1) {
+        $("#JurosAcrescidos").val($("#JurosAcrescidos").val() + '0');
+    }
+</script>

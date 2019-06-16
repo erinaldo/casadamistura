@@ -1,0 +1,33 @@
+﻿@model PdvStock.Models.Exemplo
+
+@{
+     ViewBag.Title = "Detalhes Exemplo";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>@ViewBag.Title</h3>
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "", "Exemplo", new {  }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+
+<div class="row">
+    <div class="col-sm-5 col-md-6">
+        <table class="table table-bordered table-condensed table-hover table-responsive table-striped">
+            <tbody>
+		<tr>
+			<th>
+				@Html.DisplayNameFor(model => model.Nome)
+			</th>
+			<td>
+				@Html.DisplayFor(model => model.Nome)
+			</td>
+		</tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<p>
+	@Html.Raw(@Html.ActionLink("[icon]Editar", "Edit", "Exemplo", new { id = Model.Id }, new { @class = "btn btn-primary" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-pencil'></i>&ensp;"))
+</p>

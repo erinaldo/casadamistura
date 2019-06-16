@@ -1,0 +1,154 @@
+2013-09-18 19:50:32:932 - ----------------------------------------------------------------------- 
+2013-09-18 19:50:32:956 - Bematech_FI_LeInformacoesConfiguracao 
+2013-09-18 19:50:32:959 - Versão BemaFI32.Dll: 6,1,1,6
+2013-09-18 19:50:32:961 - Versão BemaMFD.dll: 0
+2013-09-18 19:50:32:963 - Versão BemaMFD2.dll: 0
+2013-09-18 19:50:32:965 - path: D:\PROJETOS\ERNANI\ExemploCSharp\bin\Debug\
+2013-09-18 19:50:32:966 - Log: 1
+2013-09-18 19:50:32:968 - LogDiario: 1
+2013-09-18 19:50:32:969 - Status: 0
+2013-09-18 19:50:32:972 - Retorno: 0
+2013-09-18 19:50:32:974 - ControlePorta: 1
+2013-09-18 19:50:32:976 - StatusFuncao: 0
+2013-09-18 19:50:32:978 - ModeloImp: BEMATECH
+2013-09-18 19:50:32:979 - ModoGaveta: 0
+2013-09-18 19:50:32:981 - EmulMFD: 0
+2013-09-18 19:50:32:983 - StatusCheque: 0
+2013-09-18 19:50:32:985 - Porta: USB
+2013-09-18 19:50:32:987 - StatusErro: 1
+2013-09-18 19:50:32:989 - TimeOutZ: 99
+2013-09-18 19:50:32:991 - Impressora: 1
+2013-09-18 19:50:32:992 - TimeOutGerencial: 40
+2013-09-18 19:50:32:993 - CrLfVinculado: 0
+2013-09-18 19:50:32:994 - Gerencial: 0
+2013-09-18 19:50:32:995 - ForceWTSClient: 1
+2013-09-18 19:50:32:996 - RetriesWTSCmd: 3
+2013-09-18 19:50:32:997 - Software House - COO: 0
+2013-09-18 19:50:32:998 - Software House - NumeroAplicativo: 0
+2013-09-18 19:50:32:998 - Software House - CNPJ: 0
+2013-09-18 19:50:32:999 - Software House - IE: 0
+2013-09-18 19:50:33:  0 - Software House - IM: 0
+2013-09-18 19:50:33:  1 - Software House - RazaoSocial: 0
+2013-09-18 19:50:33:  2 - Software House - NomeAplicativo: 0
+2013-09-18 19:50:33:  3 - Software House - Versao: 0
+2013-09-18 19:50:33:  4 - Software House - Linha1: 0
+2013-09-18 19:50:33:  5 - Software House - Linha2: 0
+2013-09-18 19:50:33:  6 - ECF - IM: 0
+2013-09-18 19:50:33:  7 - ECF - UF: 0
+2013-09-18 19:50:33:  8 - GerarRFD: 0
+2013-09-18 19:50:33:  9 - CalculoIcmsCupom: 0
+2013-09-18 19:50:33: 10 - HabilitaRFDImpMFD: 0
+2013-09-18 19:50:33: 11 - Retorno Bematech_FI_LeInformacoesConfiguracao: OK
+2013-09-18 19:50:33: 12 - ----------------------------------------------------------------------- 
+2013-09-18 19:50:33: 13 - Bematech_FI_AbreCupom 
+2013-09-18 19:50:33: 14 - Parâmetro:  
+2013-09-18 19:50:33: 15 - Bematech_FI_NumeroCupom 
+2013-09-18 19:50:33:419 - Retorno Bematech_FI_AbrePortaSerial: -5 - Erro ao abrir a USB 
+2013-09-18 19:50:33:421 - Bematech_FI_TrataComando - Erro na abertura da porta -5
+2013-09-18 19:50:33:422 - Retorno Bematech_FI_NumeroCupom: 0 - Erro de comunicacao 
+2013-09-18 20:33:53:326 - ----------------------------------------------------------------------- 
+2013-09-18 20:33:53:343 - Bematech_FI_LeInformacoesConfiguracao 
+2013-09-18 20:33:53:346 - Versão BemaFI32.Dll: 6,1,1,6
+2013-09-18 20:33:53:347 - Versão BemaMFD.dll: 0
+2013-09-18 20:33:53:348 - Versão BemaMFD2.dll: 0
+2013-09-18 20:33:53:349 - path: D:\PROJETOS\ERNANI\ExemploCSharp\bin\Debug\
+2013-09-18 20:33:53:350 - Log: 1
+2013-09-18 20:33:53:351 - LogDiario: 1
+2013-09-18 20:33:53:353 - Status: 0
+2013-09-18 20:33:53:354 - Retorno: 0
+2013-09-18 20:33:53:355 - ControlePorta: 1
+2013-09-18 20:33:53:356 - StatusFuncao: 0
+2013-09-18 20:33:53:358 - ModeloImp: BEMATECH
+2013-09-18 20:33:53:359 - ModoGaveta: 0
+2013-09-18 20:33:53:360 - EmulMFD: 0
+2013-09-18 20:33:53:361 - StatusCheque: 0
+2013-09-18 20:33:53:362 - Porta: USB
+2013-09-18 20:33:53:364 - StatusErro: 1
+2013-09-18 20:33:53:365 - TimeOutZ: 99
+2013-09-18 20:33:53:366 - Impressora: 1
+2013-09-18 20:33:53:367 - TimeOutGerencial: 40
+2013-09-18 20:33:53:369 - CrLfVinculado: 0
+2013-09-18 20:33:53:370 - Gerencial: 0
+2013-09-18 20:33:53:372 - ForceWTSClient: 1
+2013-09-18 20:33:53:373 - RetriesWTSCmd: 3
+2013-09-18 20:33:53:374 - Software House - COO: 0
+2013-09-18 20:33:53:375 - Software House - NumeroAplicativo: 0
+2013-09-18 20:33:53:376 - Software House - CNPJ: 0
+2013-09-18 20:33:53:377 - Software House - IE: 0
+2013-09-18 20:33:53:378 - Software House - IM: 0
+2013-09-18 20:33:53:380 - Software House - RazaoSocial: 0
+2013-09-18 20:33:53:381 - Software House - NomeAplicativo: 0
+2013-09-18 20:33:53:381 - Software House - Versao: 0
+2013-09-18 20:33:53:382 - Software House - Linha1: 0
+2013-09-18 20:33:53:383 - Software House - Linha2: 0
+2013-09-18 20:33:53:383 - ECF - IM: 0
+2013-09-18 20:33:53:384 - ECF - UF: 0
+2013-09-18 20:33:53:385 - GerarRFD: 0
+2013-09-18 20:33:53:385 - CalculoIcmsCupom: 0
+2013-09-18 20:33:53:386 - HabilitaRFDImpMFD: 0
+2013-09-18 20:33:53:386 - Retorno Bematech_FI_LeInformacoesConfiguracao: OK
+2013-09-18 20:33:53:387 - ----------------------------------------------------------------------- 
+2013-09-18 20:33:53:388 - Bematech_FI_AbreCupom 
+2013-09-18 20:33:53:388 - Parâmetro:  
+2013-09-18 20:33:53:390 - Bematech_FI_NumeroCupom 
+2013-09-18 20:33:55:678 - Retorno impressora: 000022
+2013-09-18 20:33:55:680 - Retorno Bematech_FI_NumeroCupom: 1
+2013-09-18 20:33:55:681 - Bematech_FI_VersaoFirmware 
+2013-09-18 20:33:55:805 - Retorno impressora: 0101
+2013-09-18 20:33:55:806 - Retorno Bematech_FI_VersaoFirmware: 1
+2013-09-18 20:33:55:822 - Bematech_FI_VendaBruta 
+2013-09-18 20:33:55:823 - Bematech_FI_GrandeTotal 
+2013-09-18 20:33:55:948 - Retorno impressora: 000000000000001400
+2013-09-18 20:33:55:949 - Retorno Bematech_FI_GrandeTotal: 1
+2013-09-18 20:33:55:950 - Bematech_FI_DadosUltimaReducao 
+2013-09-18 20:33:56:131 - Bematech_FI_NumeroSerie 
+2013-09-18 20:33:56:256 - Retorno impressora: BE0513729000000
+2013-09-18 20:33:56:257 - Retorno Bematech_FI_NumeroSerie: 1
+2013-09-18 20:33:56:259 - Retorno impressora: 01,000000000000001400,00000000000000,00000000000000,0700120018002500050000000000000000000000000000000000000000000000,00000000000100000000000001000000000000010000000000000100000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000100,00000000000000,00000000000000,000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,000000000000000000000000000000000000,000018,000002,05,300813,00000000000000,00000000000000
+2013-09-18 20:33:56:260 - Retorno Bematech_FI_DadosUltimaReducao: 1
+2013-09-18 20:33:56:261 - Retorno da impressora: 000000000000000000
+2013-09-18 20:33:56:262 - Retorno Bematech_FI_VendaBruta: 1
+2013-09-18 20:33:56:386 - ----------------------------------------------------------------------- 
+2013-09-18 20:33:56:388 - Bematech_FI_NumeroSerie 
+2013-09-18 20:33:56:904 - Retorno impressora: BE0513729000000
+2013-09-18 20:33:56:906 - Retorno Bematech_FI_NumeroSerie: 1
+2013-09-18 20:33:56:907 - ----------------------------------------------------------------------- 
+2013-09-18 20:33:56:909 - Bematech_FI_ModeloImpressora 
+2013-09-18 20:33:56:910 - Bematech_FI_NumeroSerie 
+2013-09-18 20:33:57: 39 - Retorno impressora: BE0513729000000
+2013-09-18 20:33:57: 41 - Retorno Bematech_FI_NumeroSerie: 1
+2013-09-18 20:33:57: 61 - Bematech_FI_MarcaModeloTipoImpressoraMFD 
+2013-09-18 20:33:57:188 - Retorno impressora: BEMATECH       ,MP-2100 TH FI       ,ECF-IF 
+2013-09-18 20:33:57:190 - Retorno Bematech_FI_MarcaModeloTipoImpressoraMFD: 1
+2013-09-18 20:33:57:192 - Retorno impressora: MP2100FI
+2013-09-18 20:33:57:193 - Retorno Bematech_FI_ModeloImpressora: 1
+2013-09-18 20:33:57:194 - ----------------------------------------------------------------------- 
+2013-09-18 20:33:57:196 - Bematech_FI_VersaoFirmwareMFD 
+2013-09-18 20:33:57:320 - Retorno impressora: 010101
+2013-09-18 20:33:57:322 - Retorno: 1
+2013-09-18 20:33:57:328 - Retorno Bematech_FI_AbreCupom: 1
+2013-09-18 20:34:00:306 - ----------------------------------------------------------------------- 
+2013-09-18 20:34:00:307 - Bematech_FI_VendeItem 
+2013-09-18 20:34:00:308 - Bematech_FI_ModeloImpressora 
+2013-09-18 20:34:00:309 - Bematech_FI_NumeroSerie 
+2013-09-18 20:34:00:434 - Retorno impressora: BE0513729000000
+2013-09-18 20:34:00:435 - Retorno Bematech_FI_NumeroSerie: 1
+2013-09-18 20:34:00:437 - Bematech_FI_MarcaModeloTipoImpressoraMFD 
+2013-09-18 20:34:00:563 - Retorno impressora: BEMATECH       ,MP-2100 TH FI       ,ECF-IF 
+2013-09-18 20:34:00:564 - Retorno Bematech_FI_MarcaModeloTipoImpressoraMFD: 1
+2013-09-18 20:34:00:565 - Retorno impressora: MP2100FI
+2013-09-18 20:34:00:566 - Retorno Bematech_FI_ModeloImpressora: 1
+2013-09-18 20:34:00:567 - Parâmetros: 001|coca-cola|FF|I|1|2|1,00|%|0
+2013-09-18 20:34:00:722 - Retorno Bematech_FI_VendeItem: 1
+2013-09-18 20:34:11:906 - ----------------------------------------------------------------------- 
+2013-09-18 20:34:11:908 - Bematech_FI_EfetuaFormaPagamento  
+2013-09-18 20:34:11:910 - Parâmetros: Dinheiro|00000000000500
+2013-09-18 20:34:12: 35 - Retorno Bematech_FI_EfetuaFormaPagamento: 1
+2013-09-18 20:34:18:820 - ----------------------------------------------------------------------- 
+2013-09-18 20:34:18:822 - Bematech_FI_IniciaFechamentoCupom 
+2013-09-18 20:34:18:824 - Parâmetros: A|%|0
+2013-09-18 20:34:18:947 - Retorno Bematech_FI_IniciaFechamentoCupom: 1
+2013-09-18 20:34:21:700 - ----------------------------------------------------------------------- 
+2013-09-18 20:34:21:702 - Bematech_FI_TerminaFechamentoCupom 
+2013-09-18 20:34:21:703 - Parâmetro: Obrigado. Volte Sempre
+2013-09-18 20:34:21:828 - Retorno Bematech_FI_TerminaFechamentoCupom: 1

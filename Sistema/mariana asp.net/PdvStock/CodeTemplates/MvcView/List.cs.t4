@@ -1,0 +1,109 @@
+﻿<#@ template language="C#" HostSpecific="True" #>
+<#@ output extension=".cshtml" #>
+<#@ include file="Imports.include.t4" #>
+@model IEnumerable<#= "<" + ViewDataTypeName + ">" #>
+@using GridMvc.Html
+@using GridMvc.Sorting
+@using GridMvc.Filtering
+<#
+// The following chained if-statement outputs the file header code and markup for a partial view, a view using a layout page, or a regular view.
+if(IsPartialView) {
+#>
+
+<#
+} else if(IsLayoutPageSelected) {
+#>
+
+@{
+    ViewBag.Title = "<#= ViewDataTypeShortName#>";
+<#
+if (!String.IsNullOrEmpty(LayoutPageFile)) {
+#>
+    Layout = "<#= LayoutPageFile#>";
+<#
+}
+#>
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Cadastrar", "Create",null,null, new { @class = "btn btn-success" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-plus'></i>&ensp;"))
+</p>
+<hr />
+<#
+} else {
+#>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title><#= ViewName #></title>
+</head>
+<body>
+<#
+    PushIndent("    ");
+}
+#>
+@Html.Grid(Model).Columns(
+        columns =>
+        {
+
+<#
+IEnumerable<PropertyMetadata> properties = ModelMetadata.Properties;
+foreach (PropertyMetadata property in properties) {
+    if (property.Scaffold && !property.IsPrimaryKey && !property.IsForeignKey) {
+#>
+<#
+        // We do not want to show any association properties for which there is
+        // no associated foreign key.
+        if (property.IsAssociation && GetRelatedModelMetadata(property) == null) {
+            continue;
+        }
+#>
+		columns.Add(model => <#= "model." + GetValueExpression(property) #>).Titled("<#= GetValueExpression(property) #>").Filterable(true).Sortable(true);
+<#
+    }
+}
+
+string pkName = GetPrimaryKeyName();
+if (pkName != null) {
+#>
+
+		columns.Add().Titled("Ações").SetWidth("10%").RenderValueAs(
+                t => "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Detalhes\" class='black' href='" + @Url.Action("Details", null, new { id = t.<#= pkName #> }) + "' ><i class='fa fa-eye'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Editar\" class='black' href='" + @Url.Action("Edit", null, new { id = t.<#= pkName #> }) + "'><i class='fa fa-pencil'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Excluír\" class='black' href='" + @Url.Action("Delete", null, new { id = t.<#= pkName #> }) + "'><i class='fa fa-remove'></i></a></span>"
+               ).Sanitized(false).Encoded(false).Css("text-center");
+			   
+<#
+} else {
+#>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+<#
+}
+#>
+}).WithPaging(20).SetLanguage("ptBR").EmptyText("Nenhum registro encontrado").WithMultipleFilters()
+
+<#
+// The following code closes the tag used in the case of a view using a layout page and the body and html tags in the case of a regular view page
+#>
+<#
+if(!IsPartialView && !IsLayoutPageSelected) {
+    ClearIndent();
+#>
+</body>
+</html>
+<#
+}
+#>
+<#@ include file="ModelMetadataFunctions.cs.include.t4" #>

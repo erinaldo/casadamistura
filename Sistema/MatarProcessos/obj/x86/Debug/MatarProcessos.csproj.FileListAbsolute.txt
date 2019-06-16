@@ -1,0 +1,92 @@
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\bin\Debug\MatarProcessos.exe
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\bin\Debug\MatarProcessos.pdb
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+D:\PROJETOS\LEPETIT\Lepetit\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+D:\PROJETOS\LEPETIT\Lepetit\Lepetit\bin\Debug\MatarProcessos.exe
+D:\PROJETOS\LEPETIT\Lepetit\Lepetit\bin\Debug\MatarProcessos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Lepetit\bin\Debug\MatarProcessos.exe
+D:\PROJETOS\ERNANI\SISTEMA\Lepetit\bin\Debug\MatarProcessos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\MatarProcessos.exe
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\MatarProcessos.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\MatarProcessos.exe
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\MatarProcessos.pdb
+E:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+E:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+E:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+E:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\SISTEMA\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\MatarProcessos.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\MatarProcessos.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+D:\PROJETOS\A MARIANA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+D:\PROJETOS\A MARIANA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+D:\PROJETOS\A MARIANA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+F:\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+F:\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+F:\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+F:\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+E:\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+E:\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojAssemblyReference.cache
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.cache
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.CoreCompileInputs.cache
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+E:\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+D:\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\MatarProcessos.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\MatarProcessos.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Form1.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\MatarProcessos\obj\x86\Debug\MatarProcessos.pdb

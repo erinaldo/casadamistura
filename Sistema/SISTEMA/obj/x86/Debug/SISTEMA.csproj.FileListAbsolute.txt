@@ -1,0 +1,290 @@
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.exe
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.application
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.application
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.exe
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.application
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.exe
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\SISTEMA.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.application
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.exe
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.application
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.exe
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.application
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.application
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\SISTEMA.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\obj\x86\Debug\SISTEMA.application
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Conn.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\A MARIANA\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Conn.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+F:\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Conn.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojAssemblyReference.cache
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.cache
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.CoreCompileInputs.cache
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+E:\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.config
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe.manifest
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.application
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\SISTEMA.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Conn.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Acesso.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Carregando.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Desbloqueiotela.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Form1.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TelaInicial.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.TrustInfo.xml
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe.manifest
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.application
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\obj\x86\Debug\SISTEMA.pdb

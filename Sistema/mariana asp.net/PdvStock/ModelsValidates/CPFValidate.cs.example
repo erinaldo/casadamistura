@@ -1,0 +1,31 @@
+﻿using RhFundacao.Utils;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace RhFundacao.ModelsValidates
+{
+    public class CPFValidate  : ValidationAttribute
+    {
+        public string[] PropertyNames { get; private set; }
+
+        public CPFValidate(params string[] propertyNames)
+        {
+            this.PropertyNames = propertyNames;
+        }
+
+
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        {
+            var cpf = Convert.ToString(value);
+            if (!StringUtil.ValidaCPF(cpf))
+            {
+                return new ValidationResult(this.FormatErrorMessage(validationContext.DisplayName));
+            }
+            return null;
+        }
+    }
+}

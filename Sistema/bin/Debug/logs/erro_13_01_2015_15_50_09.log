@@ -1,0 +1,1 @@
+13/01/2015 : Existem menos colunas na instrução INSERT do que valores especificados na cláusula VALUES. O número de valores na cláusula VALUES deve corresponder ao número de colunas especificado na instrução INSERT.Erro de conexão - conexao

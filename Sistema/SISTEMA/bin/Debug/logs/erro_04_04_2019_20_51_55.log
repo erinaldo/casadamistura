@@ -1,0 +1,2 @@
+04/04/2019 20:51:55 : The statement has been terminated.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_p_pagamento_fluxo_caixa_fluxo". The conflict occurred in database "PwdDb", table "dbo.p_fluxo_caixa", column 'HANDLE'. - grava_pagamento_fluxocaixa

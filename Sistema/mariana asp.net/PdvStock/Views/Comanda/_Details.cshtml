@@ -1,0 +1,53 @@
+﻿@model PdvStock.Models.Comanda
+
+        <!-- START PARTIAL _DETAILS -->
+			<table class=""table table-bordered table-condensed table-hover table-responsive table-striped"">
+				<tbody>
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Produtos.CodBarras)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Produtos.CodBarras)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Usuario.Nome)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Usuario.Nome)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.CodigoBarrasComanda)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.CodigoBarrasComanda)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Quantidade)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Quantidade)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.DataCadastro)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.DataCadastro)
+								</td>
+							</tr>
+
+									</tbody>
+			</table>
+		<!-- END PARTIAL _DETAILS --> ";

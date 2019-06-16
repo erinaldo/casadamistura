@@ -1,0 +1,124 @@
+﻿@using GridMvc.Columns
+@model GridMvc.IGrid
+@using PdvStock.Utils
+@if (Model == null) { return; }
+@if (Model.RenderOptions.RenderRowsOnly)
+{
+    @RenderGridBody();
+}
+else
+{
+
+
+    /*data-lang="@Model.Language" */
+    <div id="#gridLang" class="grid-mvc" data-lang="@Model.Language" data-gridname="@Model.RenderOptions.GridName" data-selectable="@Model.RenderOptions.Selectable.ToString().ToLower()" data-multiplefilters="@Model.RenderOptions.AllowMultipleFilters.ToString().ToLower()">
+        <div class="grid-wrap">
+
+            <table class="table table-striped table-bordered table-condensed grid-table">
+                @* Draw grid header *@
+                <thead>
+                    @RenderGridHeader()
+                </thead>
+            </table>
+            <br />
+            <div class="row-fluid text-left center-block">
+                @*<tbody>*@
+                @RenderGridBody()
+                @*</tbody>*@
+                @RenderGridPager()
+            </div>
+        </div>
+    </div>
+}
+@helper RenderGridBody()
+{
+    if (!Model.ItemsToDisplay.Any())
+    {
+        <p class="p-azul grid-empty-text">
+            <span colspan="@Model.Columns.Count()">
+                @Model.EmptyGridText
+            </span>
+        </p>
+    }
+    else
+    {
+        @*foreach (SistemaCertificado.Models.Questionario item in Model.ItemsToDisplay)
+        {
+            <div class="col-md-2 @Model.GetRowCssClasses(item) text-center gridColMD">
+                <a href="@Url.Action("Responder", "QuestionarioResposta" , new { code=SecurityUtil.Base64Encode("" + item.Id) }, this.Context.Request.Url.Scheme)" style="display:block">
+                    @if (item.ImgUrl != null && item.ImgUrl != "")
+                    {
+                        <img src="~/Images/Questionarios/@item.ImgUrl" />
+                    }
+                    else
+                    {
+                        <i class="fa fa-clipboard fa-5x"></i>
+                    }<br /><br />
+                    <span style="display:block">@item.Nome</span>
+                </a>
+            </div>
+
+        }*@
+        foreach (object item in Model.ItemsToDisplay)
+        {
+            <div class="col-md-2 @Model.GetRowCssClasses(item) text-center gridColMD">
+                @foreach (IGridColumn column in Model.Columns)
+                {
+                    @column.CellRenderer.Render(column, column.GetCell(item))
+                }
+            </div>
+        }
+    }
+}
+@helper RenderGridHeader()
+{
+    <tr>
+        @foreach (IGridColumn column in Model.Columns)
+        {
+            @column.HeaderRenderer.Render(column)
+        }
+    </tr>
+}
+@helper RenderGridPager()
+{
+    if (Model.EnablePaging && Model.Pager != null)
+    {
+        <div class="grid-footer">
+            @Html.Partial(Model.Pager.TemplateName, Model.Pager)
+        </div>
+    }
+}
+<style>
+    
+.gridColMD img{
+  max-width: 100px; 
+}
+.gridColMD{
+  border:1px solid #ccc;
+  background-color: rgba(200,200,200,0.1);
+  padding: 10px;
+  margin-left: 8px;
+}
+.gridColMD:hover{
+  background-color: rgba(170,170,170,0.2);
+  box-shadow: 0px 0px 2px 0px;
+}
+.gridColMD:first-child{
+  margin-left:0px;
+}
+.gridColMD a , .gridColMD a:visited{
+  color:#333;
+  text-decoration: none;
+}
+.gridColMD a:hover i{
+  color:#7ac143 !important;
+  text-shadow: 0px 0px 2px #333;
+} 
+.gridColMD a:hover {
+  color:#7ac143 !important;
+} 
+.gridColMD a:hover img {
+  border: 1px solid #7ac143;
+  box-shadow: 0px 0px 2px 0px;
+}
+</style>

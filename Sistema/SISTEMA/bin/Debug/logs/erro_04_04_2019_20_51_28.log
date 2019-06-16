@@ -1,0 +1,4 @@
+04/04/2019 20:51:28 : Invalid column name 'IMPRESSO'.
+Invalid column name 'CPF'. - gravafluxocaixa
+04/04/2019 20:51:28 : The statement has been terminated.
+The INSERT statement conflicted with the FOREIGN KEY constraint "FK_p_produto_fluxo_caixa_fluxocaixa". The conflict occurred in database "PwdDb", table "dbo.p_fluxo_caixa", column 'HANDLE'. - grava_produto_fluxocaixa

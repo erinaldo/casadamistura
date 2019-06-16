@@ -1,0 +1,128 @@
+﻿@using System.Threading;
+@using System.Globalization;
+@using PdvStock.Utils;
+<!DOCTYPE html>
+<html lang="@Thread.CurrentThread.CurrentCulture">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="language" content="@Thread.CurrentThread.CurrentCulture" />
+    <meta name="description" content="PDV STOCK &copy; 2015" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/images/ib.ico" />
+    <title>
+        @Resources.Resource.TituloAba
+    </title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/sidebar")
+    @Scripts.Render("~/bundles/modernizr")
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    <div class="container-fluid Conteudo">
+        <div class="container">
+            <div class="row">
+                <div class="box">
+                    <div class="col-lg-12 text-center">
+                        @Html.Partial("_Erros")
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p> @Resources.Resource.Direitos <span id="debug">&copy;</span> PdvStock @DateTime.Now.Year</p>
+                    <small>@ServerUtil.GetVersion() - @ServerUtil.GetCompileTime()</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/sidebar")
+    @Scripts.Render("~/bundles/layout")
+    <script>
+        //CHOSEN SELECT
+        $(function () {
+            $("select").each(function () {
+                if (!$(this).hasClass('chosen')) {
+                    $(this).addClass('chosen');
+                }
+                var widthe = '100%';
+                var contains = false;
+                var noresults = '@Resources.Resource.ChosenNoResults';
+                var textmultiple = '@Resources.Resource.ChosenTextMultiple';
+                var textselect = '@Resources.Resource.ChosenSelectOne';
+                if (!$(this).hasClass('form-control')) $(this).addClass('form-control');
+                if ($(this).attr('width')) widthe = "" + $(this).attr('width');
+                if ($(this).attr('data-no-results-text')) noresults = "" + $(this).attr('data-no-results-text');
+                if ($(this).attr('data-text-multiple')) textmultiple = "" + $(this).attr('data-text-multiple');
+                if ($(this).attr('data-text-single')) textselect = "" + $(this).attr('data-text-single');
+                if ($(this).attr('width')) widthe = "" + $(this).attr('width');
+                if ($(this).attr('contains')) contains = true;
+                $(this).chosen({
+                    no_results_text: noresults,
+                    search_contains: contains,
+                    placeholder_text_multiple: textmultiple,
+                    placeholder_text_single: textselect,
+                    width: widthe,
+                });
+                if ($(this).hasClass('pull-right')) {
+                    $(this).next('.chosen-container').addClass('pull-right');
+                }
+                if (widthe == "auto") {
+                    $(this).next('.chosen-container').children('.chosen-drop').attr('style', 'width:auto');
+                }
+            });
+        });
+    </script>
+    @RenderSection("scripts", required: false)
+    <script>
+        $(function () {
+            $('.SelecaoLang').val('@Thread.CurrentThread.CurrentCulture');
+            $('.SelecaoLang').trigger("chosen:updated");
+            $('.SelecaoLang').on('change', function (e) {
+                $.ajax({
+                    url: '@Url.Action("ChangeCulture", "Home")',
+                    data: { culture: $(this).val() },
+                    type: "POST",
+                    cache: false,
+                })
+                .success(function (data) {
+                    if (data.resultado)
+                        location.reload();
+                }).error(function (data) {
+                    //alert("Erro ao trocar lingua");
+                });
+            });
+        });
+    </script>
+
+    <script>
+        $('.tel').inputmask('(99) 9999-9999');
+        $('.cel').inputmask('(99) [9]9999-9999');
+        $('.cep').inputmask('99999-999');
+        $('.cpf').inputmask('999.999.999-99');
+        $('.cnpj').inputmask('99.999.999/9999-99');
+
+
+    </script>
+    @{
+        var t = System.Threading.Thread.CurrentThread.CurrentCulture.ToString().Replace("-", "");
+        <script src="~/Scripts/gridmvc.lang.@(t).js"></script>
+    }
+</body>
+
+</html>

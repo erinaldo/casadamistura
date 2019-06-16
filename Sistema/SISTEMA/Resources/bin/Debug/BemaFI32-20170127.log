@@ -1,0 +1,52 @@
+2017-01-27 19:24:32:538 - ----------------------------------------------------------------------- 
+2017-01-27 19:24:32:548 - Bematech_FI_LeInformacoesConfiguracao 
+2017-01-27 19:24:32:568 - Versão BemaFI32.Dll: 6,1,1,6
+2017-01-27 19:24:32:568 - Versão BemaMFD.dll: 0
+2017-01-27 19:24:32:568 - Versão BemaMFD2.dll: 0
+2017-01-27 19:24:32:578 - path: D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\
+2017-01-27 19:24:32:581 - Log: 1
+2017-01-27 19:24:32:581 - LogDiario: 1
+2017-01-27 19:24:32:581 - Status: 0
+2017-01-27 19:24:32:591 - Retorno: 0
+2017-01-27 19:24:32:591 - ControlePorta: 1
+2017-01-27 19:24:32:591 - StatusFuncao: 0
+2017-01-27 19:24:32:601 - ModeloImp: MP-4200 TH
+2017-01-27 19:24:32:601 - ModoGaveta: 0
+2017-01-27 19:24:32:611 - EmulMFD: 1
+2017-01-27 19:24:32:611 - StatusCheque: 0
+2017-01-27 19:24:32:611 - Porta: COM3
+2017-01-27 19:24:32:611 - StatusErro: 1
+2017-01-27 19:24:32:611 - TimeOutZ: 99
+2017-01-27 19:24:32:621 - Impressora: 1
+2017-01-27 19:24:32:621 - TimeOutGerencial: 40
+2017-01-27 19:24:32:621 - CrLfVinculado: 0
+2017-01-27 19:24:32:621 - Gerencial: 0
+2017-01-27 19:24:32:631 - ForceWTSClient: 1
+2017-01-27 19:24:32:631 - RetriesWTSCmd: 3
+2017-01-27 19:24:32:631 - Software House - COO: 0
+2017-01-27 19:24:32:631 - Software House - NumeroAplicativo: 0
+2017-01-27 19:24:32:631 - Software House - CNPJ: 0
+2017-01-27 19:24:32:641 - Software House - IE: 0
+2017-01-27 19:24:32:641 - Software House - IM: 0
+2017-01-27 19:24:32:641 - Software House - RazaoSocial: 0
+2017-01-27 19:24:32:641 - Software House - NomeAplicativo: 0
+2017-01-27 19:24:32:641 - Software House - Versao: 0
+2017-01-27 19:24:32:641 - Software House - Linha1: 0
+2017-01-27 19:24:32:641 - Software House - Linha2: 0
+2017-01-27 19:24:32:641 - ECF - IM: 0
+2017-01-27 19:24:32:651 - ECF - UF: 0
+2017-01-27 19:24:32:651 - GerarRFD: 0
+2017-01-27 19:24:32:651 - CalculoIcmsCupom: 0
+2017-01-27 19:24:32:651 - HabilitaRFDImpMFD: 0
+2017-01-27 19:24:32:651 - Retorno Bematech_FI_LeInformacoesConfiguracao: OK
+2017-01-27 19:24:32:651 - ----------------------------------------------------------------------- 
+2017-01-27 19:24:32:651 - Bematech_FI_AbreCupomMFD 
+2017-01-27 19:24:32:661 - Parâmetro: |
+2017-01-27 19:24:32:661 - Bematech_FI_NumeroCupom 
+2017-01-27 19:24:32:661 - Retorno Bematech_FI_AbrePortaSerial: -5 - Erro ao abrir a arquivo comando p/ o EmuladorLast Err: 5
+2017-01-27 19:24:32:661 - Bematech_FI_TrataComando - Erro na abertura da porta -5
+2017-01-27 19:24:32:661 - Retorno Bematech_FI_NumeroCupom: 0 - Erro de comunicacao 
+2017-01-27 19:24:34:788 - ----------------------------------------------------------------------- 
+2017-01-27 19:24:34:798 - Bematech_FI_RetornoImpressoraMFD 
+2017-01-27 19:24:34:798 - Retorno impressora: 0,0,0
+2017-01-27 19:24:34:808 - Retorno: 1 - Ok 

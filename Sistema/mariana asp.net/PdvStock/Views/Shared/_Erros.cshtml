@@ -1,0 +1,46 @@
+﻿<section id="MsgSystem">
+
+    @{
+        String cssBase = "alert alert-dismissible oculto ";
+        String cssErro = cssBase + "alert-danger " + (TempData["ErrorMsgCss"] == null ? "" : TempData["ErrorMsgCss"]);
+        String cssInfo = cssBase + "alert-info " + (TempData["InfoMsgCss"] == null ? "" : TempData["InfoMsgCss"]);
+        String cssWarning = cssBase + "alert-warning " + (TempData["WarningMsgCss"] == null ? "" : TempData["WarningMsgCss"]);
+        String cssSuccess = cssBase + "alert-success " + (TempData["SuccessMsgCss"] == null ? "" : TempData["SuccessMsgCss"]);
+    }
+
+    @if (TempData["ErrorMsg"] != null)
+    {
+        <div class="@(cssErro)">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="fa fa-remove"></i></span></button>
+            @Html.Raw(TempData["ErrorMsg"])
+        </div>
+    }
+    @if (TempData["SuccessMsg"] != null)
+    {
+
+        <div class="@(cssSuccess)">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="fa fa-remove"></i></span></button>
+            @Html.Raw(@TempData["SuccessMsg"])
+        </div>
+    }
+    @if (TempData["WarningMsg"] != null)
+    {
+        <div class="@(cssWarning)">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="fa fa-remove"></i></span></button>
+            @Html.Raw(TempData["WarningMsg"])
+        </div>
+    }
+    @if (TempData["InfoMsg"] != null)
+    {
+
+        <div class="@(cssInfo)">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true"><i class="fa fa-remove"></i></span></button>
+            @Html.Raw(TempData["InfoMsg"])
+        </div>
+    }
+    <script>
+        $(window).ready(function () {
+            $('#MsgSystem').find('.alert').each(function () { $(this).show('slow'); })
+        });
+    </script>
+</section>

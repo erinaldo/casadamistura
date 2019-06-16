@@ -1,0 +1,200 @@
+﻿@model PdvStock.Models.Usuario
+
+@{
+     ViewBag.Title = "Detalhes Usuario";
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "", null, new {  }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+
+
+<div class="row">
+    <div class="col-md-10">
+        <markremove>
+        @{
+        var partial = @"
+        @model PdvStock.Models.Usuario
+        <!-- START PARTIAL _DETAILS -->
+			<table class=""table table-bordered table-condensed table-hover table-responsive table-striped"">
+				<tbody>
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Nome)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Nome)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Cpf)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Cpf)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Cnpj)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Cnpj)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Status)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Status)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Cep)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Cep)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Endereco)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Endereco)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Numero)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Numero)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Complemento)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Complemento)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Bairro)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Bairro)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Cidade)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Cidade)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.UF)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.UF)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Telefone)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Telefone)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Celular)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Celular)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.Email)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.Email)
+								</td>
+							</tr>
+
+																	<tr>
+								<th>
+									@Html.DisplayNameFor(model => model.DataCadastro)
+								</th>
+								<td>
+									@Html.DisplayFor(model => model.DataCadastro)
+								</td>
+							</tr>
+
+									</tbody>
+			</table>
+		<!-- END PARTIAL _DETAILS --> ";
+if (HttpContext.Current != null)
+        {
+        string path = HttpContext.Current.Server.MapPath(this.VirtualPath);
+        path = path.Replace(System.IO.Path.GetFileName(path), "_" + System.IO.Path.GetFileName(path));
+
+        FileStream fs = null;
+        StreamWriter sw = null;
+        if (!File.Exists(path))
+        {
+        fs = new FileStream(path, FileMode.OpenOrCreate, FileAccess.Write, FileShare.ReadWrite);
+        sw = new StreamWriter(fs,System.Text.Encoding.UTF8);
+        sw.Write(partial);
+        sw.Close();
+        sw.Dispose();
+        fs.Close();
+        fs.Dispose();
+        }
+        path = path.Replace(System.IO.Path.GetFileName(path), System.IO.Path.GetFileName(path).Replace("_", ""));
+
+            string removeMarkers = File.ReadAllText(path);
+            var regex = new System.Text.RegularExpressions.Regex(@"<markremove>[\s\S]*?<\/markremove>");
+            removeMarkers = regex.Replace(removeMarkers, "");
+            File.Delete(path);
+            fs = new FileStream(path, FileMode.CreateNew, FileAccess.Write, FileShare.ReadWrite);
+            sw = new StreamWriter(fs,System.Text.Encoding.UTF8);    
+            sw.Write(removeMarkers);
+            sw.Close();
+            sw.Dispose();
+            fs.Close();
+            fs.Dispose();
+        }
+        }
+        </markremove>
+		@Html.Partial("_Details", Model)
+    </div>
+</div>
+
+<p>
+	@Html.Raw(@Html.ActionLink("[icon]Editar", "Edit", null, new { id = Model.Id }, new { @class = "btn btn-primary" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-pencil'></i>&ensp;"))
+</p>

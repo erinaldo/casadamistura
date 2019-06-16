@@ -1,0 +1,1 @@
+15/01/2015 : ExecuteNonQuery requer uma Connection aberta e disponível. O estado atual da conexão é fechada. - RetornarDataTable

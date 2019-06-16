@@ -1,0 +1,162 @@
+2017-01-30 0:13:09:511 - ----------------------------------------------------------------------- 
+2017-01-30 0:13:09:561 - Bematech_FI_LeInformacoesConfiguracao 
+2017-01-30 0:13:09:593 - Versão BemaFI32.Dll: 6,1,1,6
+2017-01-30 0:13:09:595 - Versão BemaMFD.dll: 0
+2017-01-30 0:13:09:597 - Versão BemaMFD2.dll: 0
+2017-01-30 0:13:09:599 - path: D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\
+2017-01-30 0:13:09:601 - Log: 1
+2017-01-30 0:13:09:602 - LogDiario: 1
+2017-01-30 0:13:09:604 - Status: 0
+2017-01-30 0:13:09:606 - Retorno: 0
+2017-01-30 0:13:09:609 - ControlePorta: 1
+2017-01-30 0:13:09:611 - StatusFuncao: 0
+2017-01-30 0:13:09:613 - ModeloImp: MP-4200 TH
+2017-01-30 0:13:09:614 - ModoGaveta: 0
+2017-01-30 0:13:09:616 - EmulMFD: 1
+2017-01-30 0:13:09:619 - StatusCheque: 0
+2017-01-30 0:13:09:621 - Porta: COM3
+2017-01-30 0:13:09:622 - StatusErro: 1
+2017-01-30 0:13:09:623 - TimeOutZ: 99
+2017-01-30 0:13:09:626 - Impressora: 1
+2017-01-30 0:13:09:627 - TimeOutGerencial: 40
+2017-01-30 0:13:09:629 - CrLfVinculado: 0
+2017-01-30 0:13:09:630 - Gerencial: 0
+2017-01-30 0:13:09:631 - ForceWTSClient: 1
+2017-01-30 0:13:09:632 - RetriesWTSCmd: 3
+2017-01-30 0:13:09:634 - Software House - COO: 0
+2017-01-30 0:13:09:635 - Software House - NumeroAplicativo: 0
+2017-01-30 0:13:09:636 - Software House - CNPJ: 0
+2017-01-30 0:13:09:637 - Software House - IE: 0
+2017-01-30 0:13:09:639 - Software House - IM: 0
+2017-01-30 0:13:09:640 - Software House - RazaoSocial: 0
+2017-01-30 0:13:09:641 - Software House - NomeAplicativo: 0
+2017-01-30 0:13:09:642 - Software House - Versao: 0
+2017-01-30 0:13:09:643 - Software House - Linha1: 0
+2017-01-30 0:13:09:645 - Software House - Linha2: 0
+2017-01-30 0:13:09:646 - ECF - IM: 0
+2017-01-30 0:13:09:648 - ECF - UF: 0
+2017-01-30 0:13:09:649 - GerarRFD: 0
+2017-01-30 0:13:09:651 - CalculoIcmsCupom: 0
+2017-01-30 0:13:09:652 - HabilitaRFDImpMFD: 0
+2017-01-30 0:13:09:653 - Retorno Bematech_FI_LeInformacoesConfiguracao: OK
+2017-01-30 0:13:09:654 - ----------------------------------------------------------------------- 
+2017-01-30 0:13:09:655 - Bematech_FI_AbreCupom 
+2017-01-30 0:13:09:657 - Parâmetro: 33527488880
+2017-01-30 0:13:09:659 - Bematech_FI_NumeroCupom 
+2017-01-30 0:13:09:660 - Retorno Bematech_FI_AbrePortaSerial: -5 - Erro ao abrir a arquivo comando p/ o EmuladorLast Err: 5
+2017-01-30 0:13:09:661 - Bematech_FI_TrataComando - Erro na abertura da porta -5
+2017-01-30 0:13:09:662 - Retorno Bematech_FI_NumeroCupom: 0 - Erro de comunicacao 
+2017-01-30 0:13:09:664 - ----------------------------------------------------------------------- 
+2017-01-30 0:13:09:665 - Bematech_FI_AbreCupomMFD 
+2017-01-30 0:13:09:666 - Parâmetro: 33527488880|
+2017-01-30 0:13:09:667 - Bematech_FI_NumeroCupom 
+2017-01-30 0:13:09:668 - Retorno Bematech_FI_AbrePortaSerial: -5 - Erro ao abrir a arquivo comando p/ o EmuladorLast Err: 5
+2017-01-30 0:13:09:669 - Bematech_FI_TrataComando - Erro na abertura da porta -5
+2017-01-30 0:13:09:669 - Retorno Bematech_FI_NumeroCupom: 0 - Erro de comunicacao 
+2017-01-30 0:13:11:927 - ----------------------------------------------------------------------- 
+2017-01-30 0:13:11:928 - Bematech_FI_RetornoImpressoraMFD 
+2017-01-30 0:13:11:929 - Retorno impressora: 0,0,0
+2017-01-30 0:13:11:929 - Retorno: 1 - Ok 
+2017-01-30 0:15:14:612 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:14:613 - Bematech_FI_LeInformacoesConfiguracao 
+2017-01-30 0:15:14:614 - Versão BemaFI32.Dll: 6,1,1,6
+2017-01-30 0:15:14:615 - Versão BemaMFD.dll: 0
+2017-01-30 0:15:14:616 - Versão BemaMFD2.dll: 0
+2017-01-30 0:15:14:616 - path: D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\
+2017-01-30 0:15:14:617 - Log: 1
+2017-01-30 0:15:14:618 - LogDiario: 1
+2017-01-30 0:15:14:619 - Status: 0
+2017-01-30 0:15:14:620 - Retorno: 0
+2017-01-30 0:15:14:621 - ControlePorta: 1
+2017-01-30 0:15:14:622 - StatusFuncao: 0
+2017-01-30 0:15:14:623 - ModeloImp: BEMATECH
+2017-01-30 0:15:14:623 - ModoGaveta: 0
+2017-01-30 0:15:14:624 - EmulMFD: 0
+2017-01-30 0:15:14:625 - StatusCheque: 0
+2017-01-30 0:15:14:626 - Porta: DEFAULT
+2017-01-30 0:15:14:627 - StatusErro: 1
+2017-01-30 0:15:14:628 - TimeOutZ: 99
+2017-01-30 0:15:14:629 - Impressora: 1
+2017-01-30 0:15:14:630 - TimeOutGerencial: 40
+2017-01-30 0:15:14:631 - CrLfVinculado: 0
+2017-01-30 0:15:14:632 - Gerencial: 1
+2017-01-30 0:15:14:633 - ForceWTSClient: 1
+2017-01-30 0:15:14:633 - RetriesWTSCmd: 3
+2017-01-30 0:15:14:635 - Software House - COO: 0
+2017-01-30 0:15:14:636 - Software House - NumeroAplicativo: 0
+2017-01-30 0:15:14:637 - Software House - CNPJ: 0
+2017-01-30 0:15:14:638 - Software House - IE: 0
+2017-01-30 0:15:14:639 - Software House - IM: 0
+2017-01-30 0:15:14:639 - Software House - RazaoSocial: 0
+2017-01-30 0:15:14:640 - Software House - NomeAplicativo: 0
+2017-01-30 0:15:14:641 - Software House - Versao: 0
+2017-01-30 0:15:14:642 - Software House - Linha1: 0
+2017-01-30 0:15:14:642 - Software House - Linha2: 0
+2017-01-30 0:15:14:643 - ECF - IM: 0
+2017-01-30 0:15:14:644 - ECF - UF: 0
+2017-01-30 0:15:14:644 - GerarRFD: 0
+2017-01-30 0:15:14:645 - CalculoIcmsCupom: 0
+2017-01-30 0:15:14:646 - HabilitaRFDImpMFD: 0
+2017-01-30 0:15:14:647 - Retorno Bematech_FI_LeInformacoesConfiguracao: OK
+2017-01-30 0:15:14:647 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:14:648 - Bematech_FI_AbreCupom 
+2017-01-30 0:15:14:649 - Parâmetro: 33527488880
+2017-01-30 0:15:14:649 - Bematech_FI_NumeroCupom 
+2017-01-30 0:15:14:650 - Bematech_FI_VerificaImpressoraLigada 
+2017-01-30 0:15:16:183 - Retorno Bematech_FI_VerificaImpressoraLigada: 1 - Impressora ligada 
+2017-01-30 0:15:17:703 - Retorno impressora: 000008
+2017-01-30 0:15:17:704 - Retorno Bematech_FI_NumeroCupom: 1
+2017-01-30 0:15:17:705 - Bematech_FI_VersaoFirmware 
+2017-01-30 0:15:17:712 - Retorno impressora: 0300
+2017-01-30 0:15:17:712 - Retorno Bematech_FI_VersaoFirmware: 1
+2017-01-30 0:15:17:727 - Bematech_FI_VendaBruta 
+2017-01-30 0:15:17:728 - Bematech_FI_GrandeTotal 
+2017-01-30 0:15:17:736 - Retorno impressora: 000000000000000300
+2017-01-30 0:15:17:736 - Retorno Bematech_FI_GrandeTotal: 1
+2017-01-30 0:15:17:737 - Bematech_FI_DadosUltimaReducao 
+2017-01-30 0:15:17:742 - Bematech_FI_NumeroSerie 
+2017-01-30 0:15:19:279 - Retorno impressora: BE9917012901113
+2017-01-30 0:15:19:279 - Retorno Bematech_FI_NumeroSerie: 1
+2017-01-30 0:15:19:280 - Retorno impressora: 00,000000000000000000,00000000000000,00000000000000,0000000000000000000000000000000000000000000000000000000000000000,00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,00000000000000,00000000000000,000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,000000000000000000000000000000000000,000000,000000,00,000000,00000000000000,00000000000000
+2017-01-30 0:15:19:281 - Retorno Bematech_FI_DadosUltimaReducao: 1
+2017-01-30 0:15:19:282 - Bematech_FI_CalcularVendaBruta 
+2017-01-30 0:15:19:283 - Bematech_FI_NumeroSerie 
+2017-01-30 0:15:20:823 - Retorno impressora: BE9917012901113
+2017-01-30 0:15:20:823 - Retorno Bematech_FI_NumeroSerie: 1
+2017-01-30 0:15:20:824 - Bematech_FI_VerificaTotalizadoresParciaisMFD 
+2017-01-30 0:15:20:831 - Retorno impressora: 
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,00000000000000,00000000000000,00000000000300,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,00000000000000,000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,00000000000000,00000000000000,00000000000000,000000000000000300
+2017-01-30 0:15:20:831 - Retorno: 1
+2017-01-30 0:15:20:832 - Retorno Bematech_FI_CalcularVendaBruta: 1
+2017-01-30 0:15:20:833 - Retorno da impressora: 000000000000000300
+2017-01-30 0:15:20:833 - Retorno Bematech_FI_VendaBruta: 1
+2017-01-30 0:15:22:352 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:22:353 - Bematech_FI_NumeroSerie 
+2017-01-30 0:15:23:896 - Retorno impressora: BE9917012901113
+2017-01-30 0:15:23:896 - Retorno Bematech_FI_NumeroSerie: 1
+2017-01-30 0:15:23:897 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:23:898 - Bematech_FI_ModeloImpressora 
+2017-01-30 0:15:23:898 - Bematech_FI_NumeroSerie 
+2017-01-30 0:15:25:440 - Retorno impressora: BE9917012901113
+2017-01-30 0:15:25:440 - Retorno Bematech_FI_NumeroSerie: 1
+2017-01-30 0:15:25:441 - Bematech_FI_MarcaModeloTipoImpressoraMFD 
+2017-01-30 0:15:25:448 - Retorno impressora: BEMATECH       ,VIRTUAL ECF SAT     ,ECF-IF 
+2017-01-30 0:15:25:448 - Retorno Bematech_FI_MarcaModeloTipoImpressoraMFD: 1
+2017-01-30 0:15:25:449 - Retorno impressora: VRTUALFI
+2017-01-30 0:15:25:450 - Retorno Bematech_FI_ModeloImpressora: 1
+2017-01-30 0:15:25:450 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:25:451 - Bematech_FI_VersaoFirmwareMFD 
+2017-01-30 0:15:25:460 - Retorno impressora: 030000
+2017-01-30 0:15:25:460 - Retorno: 1
+2017-01-30 0:15:25:461 - Retorno Bematech_FI_AbreCupom: 1
+2017-01-30 0:15:25:463 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:25:464 - Bematech_FI_AbreCupomMFD 
+2017-01-30 0:15:25:465 - Parâmetro: 33527488880|
+2017-01-30 0:15:25:465 - Bematech_FI_NumeroCupom 
+2017-01-30 0:15:26:985 - Retorno impressora: 000009
+2017-01-30 0:15:26:985 - Retorno Bematech_FI_NumeroCupom: 1
+2017-01-30 0:15:28:498 - Retorno: 1
+2017-01-30 0:15:28:500 - ----------------------------------------------------------------------- 
+2017-01-30 0:15:28:501 - Bematech_FI_RetornoImpressoraMFD 
+2017-01-30 0:15:28:502 - Retorno impressora: 6,2,1
+2017-01-30 0:15:28:503 - Retorno: 1 - Ok 

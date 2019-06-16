@@ -1,0 +1,30 @@
+﻿@model PdvStock.Models.Grupo
+
+@{
+    ViewBag.Title = "Excluír Grupo";
+}
+
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "Index", null, new { }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+<h4>Tem certeza que deseja excluír este registro?</h4>
+<div>
+
+ <div class="row">
+        <div class="col-md-10">
+           @Html.Partial("_Details", Model)
+        </div>
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <p>
+            <button type="submit" class="btn btn-danger"><i class="fa fa-remove"></i>&ensp;Excluír</button>
+        </p>
+    }
+</div>

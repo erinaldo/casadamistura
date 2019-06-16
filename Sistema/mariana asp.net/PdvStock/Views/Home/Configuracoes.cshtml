@@ -1,0 +1,112 @@
+﻿@model PdvStock.Models.UsuarioConfiguracao
+@using PdvStock.Utils
+
+<style>
+    .b {
+        color: black;
+    }
+</style>
+<style>
+    .perfis {
+        display: block;
+    }
+
+    #inserir {
+        display: none;
+        margin-top: 10px;
+    }
+
+    .removerPerfil {
+        cursor: pointer;
+    }
+
+    .perfis-list ul, .perfis-list li {
+        list-style: none;
+        padding: 0;
+        margin: 3px 0;
+    }
+
+        .perfis-list ul li {
+            margin: 4px 0 4px 25px;
+        }
+
+            .perfis-list ul li p {
+                margin-left: 23px;
+                width: auto;
+            }
+
+        .perfis-list li i {
+            padding: 6px;
+        }
+
+    .perfis-list span {
+        background-color: transparent;
+        padding: 0px;
+    }
+</style>
+<center>
+    @if (PdvStock.Controllers.BaseController.MultiLinguagem)
+    {
+        <div class="panel panel-success" style="max-width:450px;margin-top:0;">
+            <div class="panel-heading">
+                <h3 class="panel-title">@Resources.Resource.Idioma</h3>
+            </div>
+            <div class="panel-body b">
+                <select class="SelecaoLang" width="125px">
+                    <option value="pt-BR">@Resources.Resource.Portugues</option>
+                    <option value="en-US">@Resources.Resource.Ingles</option>
+                    <option value="es-ES">@Resources.Resource.Espanhol</option>
+                </select>
+            </div>
+        </div>
+    }
+    <div class="panel panel-success" style="max-width:450px;margin-top:0;">
+        <div class="panel-heading">
+            <h3 class="panel-title">@Resources.Resource.ConfigUser</h3>
+        </div>
+        @using (Html.BeginForm("Configuracoes", "Home", FormMethod.Post))
+        {
+
+            <div class="panel-body b">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                <table style="text-align:left;">
+                    <tr>
+                        <td>
+                            <ul class="perfis-list" style="margin:0;padding:0;">
+                                <li>
+                                    @Html.LabelFor(m => m.ExibicaoNome) &#58;
+                                    @Html.EnumDropDownListFor(model => model.ExibicaoNome, htmlAttributes: new { @class = "chosen chosen-full-width", @width = "100%" })
+                                    @Html.ValidationMessageFor(model => model.ExibicaoNome, "", new { @class = "text-danger" })
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="panel-footer">
+                <button class="btn btn-success"><i class="fa fa-save"></i>&ensp;Salvar</button>
+            </div>
+        }
+
+    </div>
+
+</center>
+<script>
+    $(document).ready(function () {
+        $('.exibir').click(function () {
+            if ($(this).hasClass("btn-success")) {
+                $(this).removeClass("fa-plus");
+                $(this).removeClass("btn-success");
+                $(this).addClass("fa-minus");
+                $(this).addClass("btn-danger");
+
+            } else {
+                $(this).removeClass("fa-minus");
+                $(this).removeClass("btn-danger");
+                $(this).addClass("fa-plus");
+                $(this).addClass("btn-success");
+            }
+        });
+    });
+</script>

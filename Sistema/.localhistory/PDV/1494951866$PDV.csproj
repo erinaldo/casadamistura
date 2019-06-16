@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A236AD13-E2BC-4DEB-8E4C-E6F8B5DF6066}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PDV</RootNamespace>
+    <AssemblyName>PDV</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\SISTEMA\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Conn, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SISTEMA\bin\Debug\Conn.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AberturaCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AberturaCaixa.Designer.cs">
+      <DependentUpon>AberturaCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BemaFI32ImpressoraFiscal.cs" />
+    <Compile Include="BemaFI32.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="EditarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarProduto.Designer.cs">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InserirItemManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InserirItemManual.Designer.cs">
+      <DependentUpon>InserirItemManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExtornaItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExtornaItem.Designer.cs">
+      <DependentUpon>ExtornaItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDesconto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDesconto.Designer.cs">
+      <DependentUpon>FormDesconto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MP2032.cs" />
+    <Compile Include="PontoVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PontoVenda.Designer.cs">
+      <DependentUpon>PontoVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Recebimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recebimento.Designer.cs">
+      <DependentUpon>Recebimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SangriaSuprimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SangriaSuprimento.Designer.cs">
+      <DependentUpon>SangriaSuprimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SenhaGerencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SenhaGerencia.Designer.cs">
+      <DependentUpon>SenhaGerencia.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AberturaCaixa.resx">
+      <DependentUpon>AberturaCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarProduto.resx">
+      <DependentUpon>EditarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InserirItemManual.resx">
+      <DependentUpon>InserirItemManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtornaItem.resx">
+      <DependentUpon>ExtornaItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDesconto.resx">
+      <DependentUpon>FormDesconto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDialog.resx">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PontoVenda.resx">
+      <DependentUpon>PontoVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recebimento.resx">
+      <DependentUpon>Recebimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SangriaSuprimento.resx">
+      <DependentUpon>SangriaSuprimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SenhaGerencia.resx">
+      <DependentUpon>SenhaGerencia.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backfoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra_produto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoeslaterais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\campotexto.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

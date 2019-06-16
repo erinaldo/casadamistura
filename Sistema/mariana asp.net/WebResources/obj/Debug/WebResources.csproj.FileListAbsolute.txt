@@ -1,0 +1,5 @@
+E:\TortoiseServidorNovo\LayoutNET\desenvolvimento\WebResources\bin\Debug\WebResources.dll
+E:\TortoiseServidorNovo\LayoutNET\desenvolvimento\WebResources\bin\Debug\WebResources.pdb
+E:\TortoiseServidorNovo\LayoutNET\desenvolvimento\WebResources\obj\Debug\WebResources.csprojResolveAssemblyReference.cache
+E:\TortoiseServidorNovo\LayoutNET\desenvolvimento\WebResources\obj\Debug\WebResources.dll
+E:\TortoiseServidorNovo\LayoutNET\desenvolvimento\WebResources\obj\Debug\WebResources.pdb

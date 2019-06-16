@@ -1,0 +1,2 @@
+22/10/2013 20:25:09 : A instrução foi finalizada.
+Não é possível inserir o valor NULL na coluna 'HANDLE', tabela 'PwdDb.dbo.p_despesa'; a coluna não permite nulos. Falha em INSERT. - GRAVA_DESPESA

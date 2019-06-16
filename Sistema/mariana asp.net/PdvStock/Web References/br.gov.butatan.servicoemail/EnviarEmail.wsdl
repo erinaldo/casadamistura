@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s1="http://tempuri.org/AbstractTypes" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="emailObj" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EmailObj">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Para" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cc" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="BCc" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PathAnexos" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="Anexos" type="tns:ArrayOfAnexosHelper" />
+          <s:element minOccurs="1" maxOccurs="1" name="Priority" type="tns:MailPriority" />
+          <s:element minOccurs="0" maxOccurs="1" name="Errors" type="tns:ArrayOfErrorResult" />
+          <s:element minOccurs="1" maxOccurs="1" name="Error" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Base64Anexos" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="AnexosNomes" type="tns:ArrayOfString" />
+          <s:element minOccurs="0" maxOccurs="1" name="AnexosMimeType" type="tns:ArrayOfString" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAnexosHelper">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AnexosHelper" nillable="true" type="tns:AnexosHelper" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AnexosHelper">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NomeArquivo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Base64Bytes" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MimeType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="MailPriority">
+        <s:restriction base="s:string">
+          <s:enumeration value="Normal" />
+          <s:enumeration value="Low" />
+          <s:enumeration value="High" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="ArrayOfErrorResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ErrorResult" nillable="true" type="tns:ErrorResult" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ErrorResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExceptionAcionada" type="tns:ExceptionAcionada" />
+          <s:element minOccurs="0" maxOccurs="1" name="UrlOrigem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="IpOrigem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BrowserOrigem" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="DataException" type="s:dateTime" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ExceptionAcionada">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StackTrace" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="StatusCode" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SendEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendEmailResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Simples">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimplesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SimplesResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimplesAnexo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Base64Anexo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeArquivo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MediaType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SimplesAnexoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SimplesAnexoResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOneEmail">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PathAnexo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOneEmailResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendOneEmailResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOneEmailAnexos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Base64Anexo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeArquivo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="MimeType" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendOneEmailAnexosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendOneEmailAnexosResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarAnexo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Base64Anexo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeArquivo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="MimeType" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarAnexoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EnviarAnexoResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Enviar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Para" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="ReplyTo" type="tns:ArrayOfString" />
+            <s:element minOccurs="0" maxOccurs="1" name="Assunto" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NomeSistema" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EnviarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EnviarResult" type="tns:EmailObj" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EmailObj" nillable="true" type="tns:EmailObj" />
+    </s:schema>
+    <s:schema targetNamespace="http://tempuri.org/AbstractTypes">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:complexType name="StringArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="unbounded" name="String" type="s:string" />
+            </s:sequence>
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimplesSoapIn">
+    <wsdl:part name="parameters" element="tns:Simples" />
+  </wsdl:message>
+  <wsdl:message name="SimplesSoapOut">
+    <wsdl:part name="parameters" element="tns:SimplesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoSoapIn">
+    <wsdl:part name="parameters" element="tns:SimplesAnexo" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoSoapOut">
+    <wsdl:part name="parameters" element="tns:SimplesAnexoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailSoapIn">
+    <wsdl:part name="parameters" element="tns:SendOneEmail" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailSoapOut">
+    <wsdl:part name="parameters" element="tns:SendOneEmailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosSoapIn">
+    <wsdl:part name="parameters" element="tns:SendOneEmailAnexos" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosSoapOut">
+    <wsdl:part name="parameters" element="tns:SendOneEmailAnexosResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoSoapIn">
+    <wsdl:part name="parameters" element="tns:EnviarAnexo" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoSoapOut">
+    <wsdl:part name="parameters" element="tns:EnviarAnexoResponse" />
+  </wsdl:message>
+  <wsdl:message name="EnviarSoapIn">
+    <wsdl:part name="parameters" element="tns:Enviar" />
+  </wsdl:message>
+  <wsdl:message name="EnviarSoapOut">
+    <wsdl:part name="parameters" element="tns:EnviarResponse" />
+  </wsdl:message>
+  <wsdl:message name="SimplesHttpGetIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimplesHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoHttpGetIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s:string" />
+    <wsdl:part name="NomeArquivo" type="s:string" />
+    <wsdl:part name="MediaType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailHttpGetIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="PathAnexo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosHttpGetIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s1:StringArray" />
+    <wsdl:part name="NomeArquivo" type="s1:StringArray" />
+    <wsdl:part name="MimeType" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoHttpGetIn">
+    <wsdl:part name="Para" type="s1:StringArray" />
+    <wsdl:part name="ReplyTo" type="s1:StringArray" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s1:StringArray" />
+    <wsdl:part name="NomeArquivo" type="s1:StringArray" />
+    <wsdl:part name="MimeType" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="EnviarHttpGetIn">
+    <wsdl:part name="Para" type="s1:StringArray" />
+    <wsdl:part name="ReplyTo" type="s1:StringArray" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EnviarHttpGetOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SimplesHttpPostIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimplesHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoHttpPostIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s:string" />
+    <wsdl:part name="NomeArquivo" type="s:string" />
+    <wsdl:part name="MediaType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SimplesAnexoHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailHttpPostIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="PathAnexo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosHttpPostIn">
+    <wsdl:part name="Para" type="s:string" />
+    <wsdl:part name="ReplyTo" type="s:string" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s1:StringArray" />
+    <wsdl:part name="NomeArquivo" type="s1:StringArray" />
+    <wsdl:part name="MimeType" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="SendOneEmailAnexosHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoHttpPostIn">
+    <wsdl:part name="Para" type="s1:StringArray" />
+    <wsdl:part name="ReplyTo" type="s1:StringArray" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+    <wsdl:part name="Base64Anexo" type="s1:StringArray" />
+    <wsdl:part name="NomeArquivo" type="s1:StringArray" />
+    <wsdl:part name="MimeType" type="s1:StringArray" />
+  </wsdl:message>
+  <wsdl:message name="EnviarAnexoHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:message name="EnviarHttpPostIn">
+    <wsdl:part name="Para" type="s1:StringArray" />
+    <wsdl:part name="ReplyTo" type="s1:StringArray" />
+    <wsdl:part name="Assunto" type="s:string" />
+    <wsdl:part name="NomeSistema" type="s:string" />
+    <wsdl:part name="Body" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="EnviarHttpPostOut">
+    <wsdl:part name="Body" element="tns:EmailObj" />
+  </wsdl:message>
+  <wsdl:portType name="EnviarEmailSoap">
+    <wsdl:operation name="SendEmail">
+      <wsdl:input message="tns:SendEmailSoapIn" />
+      <wsdl:output message="tns:SendEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Simples">
+      <wsdl:input message="tns:SimplesSoapIn" />
+      <wsdl:output message="tns:SimplesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <wsdl:input message="tns:SimplesAnexoSoapIn" />
+      <wsdl:output message="tns:SimplesAnexoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Deprecated[Utilizava pasta no mesmo servidor como anexo]</wsdl:documentation>
+      <wsdl:input message="tns:SendOneEmailSoapIn" />
+      <wsdl:output message="tns:SendOneEmailSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <wsdl:input message="tns:SendOneEmailAnexosSoapIn" />
+      <wsdl:output message="tns:SendOneEmailAnexosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <wsdl:input message="tns:EnviarAnexoSoapIn" />
+      <wsdl:output message="tns:EnviarAnexoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <wsdl:input message="tns:EnviarSoapIn" />
+      <wsdl:output message="tns:EnviarSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="EnviarEmailHttpGet">
+    <wsdl:operation name="Simples">
+      <wsdl:input message="tns:SimplesHttpGetIn" />
+      <wsdl:output message="tns:SimplesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <wsdl:input message="tns:SimplesAnexoHttpGetIn" />
+      <wsdl:output message="tns:SimplesAnexoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Deprecated[Utilizava pasta no mesmo servidor como anexo]</wsdl:documentation>
+      <wsdl:input message="tns:SendOneEmailHttpGetIn" />
+      <wsdl:output message="tns:SendOneEmailHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <wsdl:input message="tns:SendOneEmailAnexosHttpGetIn" />
+      <wsdl:output message="tns:SendOneEmailAnexosHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <wsdl:input message="tns:EnviarAnexoHttpGetIn" />
+      <wsdl:output message="tns:EnviarAnexoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <wsdl:input message="tns:EnviarHttpGetIn" />
+      <wsdl:output message="tns:EnviarHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="EnviarEmailHttpPost">
+    <wsdl:operation name="Simples">
+      <wsdl:input message="tns:SimplesHttpPostIn" />
+      <wsdl:output message="tns:SimplesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <wsdl:input message="tns:SimplesAnexoHttpPostIn" />
+      <wsdl:output message="tns:SimplesAnexoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Deprecated[Utilizava pasta no mesmo servidor como anexo]</wsdl:documentation>
+      <wsdl:input message="tns:SendOneEmailHttpPostIn" />
+      <wsdl:output message="tns:SendOneEmailHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <wsdl:input message="tns:SendOneEmailAnexosHttpPostIn" />
+      <wsdl:output message="tns:SendOneEmailAnexosHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <wsdl:input message="tns:EnviarAnexoHttpPostIn" />
+      <wsdl:output message="tns:EnviarAnexoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <wsdl:input message="tns:EnviarHttpPostIn" />
+      <wsdl:output message="tns:EnviarHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EnviarEmailSoap" type="tns:EnviarEmailSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendEmail">
+      <soap:operation soapAction="http://tempuri.org/SendEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Simples">
+      <soap:operation soapAction="http://tempuri.org/Simples" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <soap:operation soapAction="http://tempuri.org/SimplesAnexo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <soap:operation soapAction="http://tempuri.org/SendOneEmail" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <soap:operation soapAction="http://tempuri.org/SendOneEmailAnexos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <soap:operation soapAction="http://tempuri.org/EnviarAnexo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <soap:operation soapAction="http://tempuri.org/Enviar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EnviarEmailSoap12" type="tns:EnviarEmailSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendEmail">
+      <soap12:operation soapAction="http://tempuri.org/SendEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Simples">
+      <soap12:operation soapAction="http://tempuri.org/Simples" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <soap12:operation soapAction="http://tempuri.org/SimplesAnexo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <soap12:operation soapAction="http://tempuri.org/SendOneEmail" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <soap12:operation soapAction="http://tempuri.org/SendOneEmailAnexos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <soap12:operation soapAction="http://tempuri.org/EnviarAnexo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <soap12:operation soapAction="http://tempuri.org/Enviar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EnviarEmailHttpGet" type="tns:EnviarEmailHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="Simples">
+      <http:operation location="/Simples" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <http:operation location="/SimplesAnexo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <http:operation location="/SendOneEmail" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <http:operation location="/SendOneEmailAnexos" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <http:operation location="/EnviarAnexo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <http:operation location="/Enviar" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EnviarEmailHttpPost" type="tns:EnviarEmailHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="Simples">
+      <http:operation location="/Simples" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SimplesAnexo">
+      <http:operation location="/SimplesAnexo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmail">
+      <http:operation location="/SendOneEmail" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendOneEmailAnexos">
+      <http:operation location="/SendOneEmailAnexos" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EnviarAnexo">
+      <http:operation location="/EnviarAnexo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Enviar">
+      <http:operation location="/Enviar" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EnviarEmail">
+    <wsdl:port name="EnviarEmailSoap" binding="tns:EnviarEmailSoap">
+      <soap:address location="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EnviarEmailSoap12" binding="tns:EnviarEmailSoap12">
+      <soap12:address location="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EnviarEmailHttpGet" binding="tns:EnviarEmailHttpGet">
+      <http:address location="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EnviarEmailHttpPost" binding="tns:EnviarEmailHttpPost">
+      <http:address location="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

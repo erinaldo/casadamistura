@@ -1,0 +1,268 @@
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.dll
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.dll
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Clientes.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Despesas.resources
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.dll
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Cadastros.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Despesas.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Clientes.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.dll
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Despesas.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Clientes.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Despesas.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Clientes.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Cadastros\obj\Debug\Cadastros.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.dll
+D:\PROJETOS\A MARIANA\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.dll
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+F:\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+E:\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+E:\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+E:\Sistema\Cadastros\obj\Debug\Cadastros.csprojAssemblyReference.cache
+E:\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+E:\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.cache
+E:\Sistema\Cadastros\obj\Debug\Cadastros.csproj.CoreCompileInputs.cache
+E:\Sistema\Cadastros\obj\Debug\Cadastros.csproj.CopyComplete
+E:\Sistema\Cadastros\obj\Debug\Cadastros.dll
+E:\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.dll
+D:\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Cadastros.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasaReceber.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.ContasPagar.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Despesas.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarFornecedor.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroGrupo.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroProduto.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.CadastroSubGrupo.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Clientes.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarCliente.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Fornecedor.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.MinhaWebCamComp.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarGrupo.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarProduto.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.FormUsuario.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.EditarUsuario.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Cadastros\obj\Debug\Cadastros.pdb

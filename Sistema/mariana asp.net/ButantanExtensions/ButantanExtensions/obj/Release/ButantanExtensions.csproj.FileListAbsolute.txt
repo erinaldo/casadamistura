@@ -1,0 +1,5 @@
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\bin\Release\ButantanExtensions.dll
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\bin\Release\ButantanExtensions.pdb
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Release\ButantanExtensions.dll
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Release\ButantanExtensions.pdb
+C:\Users\rafael.petronilio\Documents\Visual Studio 2013\Projects\ButantanExtensions\ButantanExtensions\obj\Release\ButantanExtensions.csprojResolveAssemblyReference.cache

@@ -1,0 +1,24 @@
+﻿@model IEnumerable<PdvStock.Models.Produtos>
+@using GridMvc.Html
+@using GridMvc.Sorting
+@using GridMvc.Filtering
+
+@{
+    ViewBag.Title = "Produtos";
+    Layout = null;
+}
+    @Html.Grid(Model).Columns(
+        columns =>
+        {
+
+            columns.Add(model => model.CodBarras).Titled("Cod. Barras").Filterable(true).Sortable(true);
+            columns.Add(model => model.Nome).Titled("Nome").Filterable(true).Sortable(true);
+            columns.Add(model => model.PrecoCusto).Titled("Preco Custo").Filterable(true).Sortable(true);
+            columns.Add(model => model.QuantidadeEstocada).Titled("Quantidade Estocada").Filterable(true).Sortable(true);
+            //columns.Add(model => model.Foto).Titled("Foto").RenderValueAs(t=> "<img src = "+(t.Foto == null ? @Url.Content("~/ UploadPhoto / transparent.png") : @Url.Content(t.Foto))+" width = '70' id='photo' class='img-thumbnail'/>").Sanitized(false).Encoded(false).Css("text-center");
+
+            columns.Add().Titled("Ações").SetWidth("10%").RenderValueAs(
+                    t => "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Detalhes\" class='black selectproduct ' href='#' ><i class='fa fa-check'></i></a></span>"               ).Sanitized(false).Encoded(false).Css("text-center");
+			   
+}).WithPaging(20).SetLanguage("ptBR").EmptyText("Nenhum registro encontrado").WithMultipleFilters()
+

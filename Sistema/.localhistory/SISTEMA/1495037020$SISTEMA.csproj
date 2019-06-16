@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F4C1B1A-E467-4310-B9F6-5E793105ACF3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SISTEMA</RootNamespace>
+    <AssemblyName>SISTEMA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logocurto.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>D979D1B7620765AC23B1CF83FBCED3ACB8E2462F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SISTEMA_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cadastros, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Cadastros.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PDV, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PDV.dll</HintPath>
+    </Reference>
+    <Reference Include="Perifericos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Perifericos.dll</HintPath>
+    </Reference>
+    <Reference Include="Relatorios, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Relatorios.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acesso\Acess.cs" />
+    <Compile Include="Acesso\Acesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Acesso\Acesso.Designer.cs">
+      <DependentUpon>Acesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Carregando.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Carregando.Designer.cs">
+      <DependentUpon>Carregando.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CryptorEngine.cs" />
+    <Compile Include="Desbloqueiotela.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desbloqueiotela.designer.cs">
+      <DependentUpon>Desbloqueiotela.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SessaoSistema.cs" />
+    <Compile Include="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaInicial.Designer.cs">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Acesso\Acesso.resx">
+      <DependentUpon>Acesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Carregando.resx">
+      <DependentUpon>Carregando.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desbloqueiotela.resx">
+      <DependentUpon>Desbloqueiotela.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TelaInicial.resx">
+      <DependentUpon>TelaInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\app.manifest" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="settings.ini" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\addclien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\Box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\print-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\os.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\recebimento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addcomanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletecomanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorjeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savecomanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra_produto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backfoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\campotexto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fundobotoes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botoeslaterais.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrinho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalizavenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalizarprazo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extornaitem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confirmasenhagerencoa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indicaqtdeitem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desconto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelaitem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\localizaritem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelacupom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fechatela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logocurto.ico" />
+    <None Include="Resources\loader.gif" />
+    <None Include="images\icone_cadeado.gif" />
+    <None Include="images\acessar.png" />
+    <None Include="Resources\LOGO.png" />
+    <None Include="bin\Debug\img\logo.png" />
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conn\Conn.csproj">
+      <Project>{8FD77E7A-008B-45E0-A821-F0DA0ACF7C0B}</Project>
+      <Name>Conn</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

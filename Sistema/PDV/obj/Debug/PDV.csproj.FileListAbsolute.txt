@@ -1,0 +1,232 @@
+D:\PROJETOS\ERNANI\SISTEMA\PDV\bin\Debug\PDV.dll
+D:\PROJETOS\ERNANI\SISTEMA\PDV\bin\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\SISTEMA\PDV\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\PDV\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.dll
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.PontoVenda.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.dll
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.Recebimento.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.FormDesconto.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.AberturaCaixa.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.SenhaGerencia.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.FormDialog.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.ExtornaItem.resources
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.EditarProduto.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.dll
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\PDV.pdb
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.AberturaCaixa.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.EditarProduto.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.ExtornaItem.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.FormDesconto.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.FormDialog.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.PontoVenda.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.Properties.Resources.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.Recebimento.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.SenhaGerencia.resources
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.dll
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.pdb
+E:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\bin\Debug\PDV.dll
+F:\MARCA TI\ERNANI\CasaDaMistura\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.AberturaCaixa.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.EditarProduto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.ExtornaItem.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.FormDesconto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.FormDialog.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.PontoVenda.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.Recebimento.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.SenhaGerencia.resources
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.dll
+F:\MARCA TI\ERNANI\CasaDaMistura\PDV\obj\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.AberturaCaixa.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.EditarProduto.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.ExtornaItem.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.FormDesconto.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.FormDialog.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.PontoVenda.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.Properties.Resources.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.Recebimento.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.SenhaGerencia.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.AberturaCaixa.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.EditarProduto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.InserirItemManual.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.ExtornaItem.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.FormDesconto.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.FormDialog.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.PontoVenda.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.Recebimento.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.SenhaGerencia.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\PDV\obj\Debug\PDV.InserirItemManual.resources
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\PDV.dll
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.dll
+D:\PROJETOS\A MARIANA\Sistema\PDV\obj\Debug\PDV.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\PDV.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\PDV\obj\Debug\PDV.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.pdb
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.dll
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.pdb
+F:\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\PDV.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\PDV\obj\Debug\PDV.pdb
+E:\Sistema\SISTEMA\bin\Debug\PDV.dll
+E:\Sistema\SISTEMA\bin\Debug\PDV.pdb
+E:\Sistema\PDV\obj\Debug\PDV.csprojAssemblyReference.cache
+E:\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+E:\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+E:\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+E:\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+E:\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+E:\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+E:\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+E:\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+E:\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+E:\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+E:\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+E:\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+E:\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
+E:\Sistema\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
+E:\Sistema\PDV\obj\Debug\PDV.csproj.CopyComplete
+E:\Sistema\PDV\obj\Debug\PDV.dll
+E:\Sistema\PDV\obj\Debug\PDV.pdb
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.dll
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.dll
+D:\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csprojResolveAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.AberturaCaixa.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.EditarProduto.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.GerarNotas.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.InserirItemManual.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.ExtornaItem.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDesconto.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.FormDialog.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.PontoVenda.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.Recebimento.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SangriaSuprimento.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.SenhaGerencia.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\PDV.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\PDV\obj\Debug\PDV.csprojAssemblyReference.cache

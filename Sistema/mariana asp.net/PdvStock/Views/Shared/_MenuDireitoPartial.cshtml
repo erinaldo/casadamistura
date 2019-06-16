@@ -1,0 +1,21 @@
+﻿@using PdvStock.Utils;
+@if (DadosUsuario.UsuarioLogado())
+{
+    using (Html.BeginForm("Sair", "Login", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        var nome = DadosUsuario.GetDisplayNome();
+        @Html.AntiForgeryToken()
+        <div class=" side-nav-header visible-phone">
+            <a href="@Url.Action("Configuracoes", "", null)" style="position:absolute;top:5px;right:5px;"><i class='fa fa-cog'></i></a>
+            <a href="@Url.Action("MeusDados","Home",null)" style="padding:0;margin:0;text-decoration:none !important">
+                @*<img class="table-bordered img-rounded img-thumbnail " id="user-picture-placeholder" style="width:95px;height:80px;background-color:#eee" />*@
+                <img src="@DadosUsuario.UrlFoto()"  class="table-bordered img-rounded img-thumbnail " id="user-picture" style="width:95px;height:80px;" />
+            </a>
+            <br />
+            <a href="@Url.Action("MeusDados","Home",null)" style=" padding: 0; margin-top: 10px;vertical-align:middle;display: block;text-decoration:none;">
+                <span style="vertical-align:middle;">&ensp;@nome</span>
+            </a>
+        </div>
+
+    }
+}

@@ -1,0 +1,1 @@
+alter table p_fluxo_caixa add CPF varchar(14) null

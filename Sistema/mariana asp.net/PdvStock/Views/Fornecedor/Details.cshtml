@@ -1,0 +1,23 @@
+﻿@model PdvStock.Models.Fornecedor
+
+@{
+     ViewBag.Title = "Detalhes Fornecedor";
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Listagem", "", null, new {  }, new { @class = "btn btn-default" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-list-alt'></i>&ensp;"))
+</p>
+<hr />
+
+
+<div class="row">
+    <div class="col-md-10">
+        
+		@Html.Partial("_Details", Model)
+    </div>
+</div>
+
+<p>
+	@Html.Raw(@Html.ActionLink("[icon]Editar", "Edit", null, new { id = Model.Id }, new { @class = "btn btn-primary" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-pencil'></i>&ensp;"))
+</p>

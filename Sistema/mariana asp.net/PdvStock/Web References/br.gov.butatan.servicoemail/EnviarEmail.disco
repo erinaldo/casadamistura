@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://servicoemail.butantan.gov.br/EnviarEmail.asmx?wsdl" docRef="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" xmlns:q1="http://tempuri.org/" binding="q1:EnviarEmailSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://servicoemail.butantan.gov.br/EnviarEmail.asmx" xmlns:q2="http://tempuri.org/" binding="q2:EnviarEmailSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

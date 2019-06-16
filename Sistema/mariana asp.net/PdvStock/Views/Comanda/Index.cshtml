@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PdvStock.Models.Comanda>
+@using GridMvc.Html
+@using GridMvc.Sorting
+@using GridMvc.Filtering
+
+@{
+    ViewBag.Title = "Comanda";
+}
+<h1 class="brand-name"> @ViewBag.Title</h1>
+<hr class="tagline-divider">
+<p>
+    @Html.Raw(@Html.ActionLink("[icon]Cadastrar", "Stations", null, null, new { @class = "btn btn-success" }).ToHtmlString().Replace("[icon]", "<i class='fa fa-plus'></i>&ensp;"))
+</p>
+<hr />
+@Html.Grid(Model).Columns(
+        columns =>
+        {
+
+		columns.Add(model => model.Produtos.Nome).Titled("Produto").Filterable(true).Sortable(true);
+		columns.Add(model => model.Usuario.Nome).Titled("Funcionário").Filterable(true).Sortable(true);
+		columns.Add(model => model.CodigoBarrasComanda).Titled("Comanda").Filterable(true).Sortable(true);
+		columns.Add(model => model.Quantidade).Titled("Quantidade").Filterable(true).Sortable(true);
+		columns.Add(model => model.DataCadastro).Titled("Data").Filterable(true).Sortable(true);
+
+		columns.Add().Titled("Ações").SetWidth("10%").RenderValueAs(
+                t => "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Detalhes\" class='black' href='" + @Url.Action("Details", null, new { id = t.Id }) + "' ><i class='fa fa-eye'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Editar\" class='black' href='" + @Url.Action("Edit", null, new { id = t.Id }) + "'><i class='fa fa-pencil'></i></a></span>&ensp;"
+                    + "<span><a data-toggle=\"tooltip\" data-placement=\"top\" title=\"Excluír\" class='black' href='" + @Url.Action("Delete", null, new { id = t.Id }) + "'><i class='fa fa-remove'></i></a></span>"
+               ).Sanitized(false).Encoded(false).Css("text-center");
+			   
+}).WithPaging(20).SetLanguage("ptBR").EmptyText("Nenhum registro encontrado").WithMultipleFilters()
+

@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Erro #500";
+}
+@*<div style="position:fixed;background-color:rgba(0,0,0,0.2);width:100%;height:100%;top:0;left:0;">
+        <div class="col-md-4">
+        </div>
+    </div>*@
+
+<div style="width:100%;">
+    <div class="alert alert-danger" style="width:auto;text-align:center;">
+        <i class="fa fa-exclamation-triangle" style="margin:5px;font-size:48px;"></i><br />Erro #500 - @Resources.Resource.Error500
+
+        @if (TempData["HttpError"] != null)
+        {
+            <br />
+            <br />
+            @Html.Raw(TempData["HttpError"])
+        }
+    </div>
+</div>

@@ -1,0 +1,230 @@
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\PdvStock.dll.config
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\PdvStock.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\PdvStock.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Antlr3.Runtime.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\EntityFramework.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\EntityFramework.SqlServer.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\GridMvc.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\MySql.Data.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\MySql.Data.Entity.EF6.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Newtonsoft.Json.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Net.Http.Formatting.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Helpers.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Http.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Http.WebHost.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Mvc.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Optimization.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Razor.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.Deployment.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.Razor.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\WebGrease.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\GridMvc.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Resources.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\EntityFramework.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\EntityFramework.SqlServer.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Newtonsoft.Json.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Net.Http.Formatting.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Helpers.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Http.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Http.WebHost.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Mvc.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Razor.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.Deployment.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.WebPages.Razor.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\System.Web.Optimization.xml
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\Antlr3.Runtime.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\de\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\es\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\fr\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\it\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\ru\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Net.Http.Formatting.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Helpers.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Http.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Http.WebHost.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Mvc.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Razor.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.WebPages.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\bin\pt-br\System.Web.Optimization.resources.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.dll
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.pdb
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.AcaoService.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.ModuloStatus.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.ModuloService.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.PerfilService.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.DadosDoUsuario.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.Grupo.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.SubGrupo.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.Fornecedor.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.Produto.resources
+D:\PROJETOS\A MARIANA\desenvolvimento\PdvStock\obj\Debug\PdvStock.Migrations.Addrequiredprodutos.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\PdvStock.dll.config
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\PdvStock.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\PdvStock.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Antlr3.Runtime.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\ButantanExtensions.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\EntityFramework.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\EntityFramework.SqlServer.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\GridMvc.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\MySql.Data.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\MySql.Data.Entity.EF6.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Newtonsoft.Json.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Net.Http.Formatting.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Helpers.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Http.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Http.WebHost.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Mvc.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Optimization.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Razor.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.Razor.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\WebGrease.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\ButantanExtensions.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\GridMvc.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Resources.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\EntityFramework.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\EntityFramework.SqlServer.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Newtonsoft.Json.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Net.Http.Formatting.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Helpers.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Http.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Http.WebHost.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Mvc.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Razor.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.WebPages.Razor.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\System.Web.Optimization.xml
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\Antlr3.Runtime.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\de\GridMvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\es\GridMvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\fr\GridMvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\it\GridMvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\ru\GridMvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\en-US\Resources.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\es-ES\Resources.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.csprojResolveAssemblyReference.cache
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.AcaoService.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.ModuloStatus.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.ModuloService.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PerfilService.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.DadosDoUsuario.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Grupo.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.SubGrupo.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Fornecedor.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Produto.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Addrequiredprodutos.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.csproj.GenerateResource.Cache
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.dll
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.pdb
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Clientes.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Pdv.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvFormaPagtoRelationFormaPgto.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvItensRelationProdutos.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.RelationshipPdvPagamentoPdv.resources
+C:\Users\marcos.cruz\Dropbox\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvPagamentoDesconto.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\PdvStock.dll.config
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\PdvStock.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\PdvStock.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Antlr3.Runtime.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\ButantanExtensions.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\EntityFramework.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\EntityFramework.SqlServer.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\GridMvc.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Microsoft.Web.Infrastructure.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\MySql.Data.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\MySql.Data.Entity.EF6.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Newtonsoft.Json.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Net.Http.Formatting.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Helpers.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Http.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Http.WebHost.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Mvc.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Optimization.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Razor.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.Deployment.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.Razor.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\WebGrease.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\ButantanExtensions.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\GridMvc.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Resources.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\EntityFramework.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\EntityFramework.SqlServer.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Newtonsoft.Json.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Net.Http.Formatting.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Helpers.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Http.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Http.WebHost.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Mvc.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Razor.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.Deployment.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.WebPages.Razor.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\System.Web.Optimization.xml
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\Antlr3.Runtime.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\de\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\es\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\fr\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\it\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\ru\GridMvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\en-US\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\es-ES\Resources.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Net.Http.Formatting.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Helpers.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Http.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Http.WebHost.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Mvc.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Razor.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\bin\pt-br\System.Web.Optimization.resources.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.AcaoService.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.ModuloStatus.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.ModuloService.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PerfilService.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.DadosDoUsuario.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Grupo.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.SubGrupo.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Fornecedor.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Produto.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Addrequiredprodutos.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Clientes.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.Pdv.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvFormaPagtoRelationFormaPgto.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvItensRelationProdutos.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.RelationshipPdvPagamentoPdv.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.PdvPagamentoDesconto.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.addtableusuario.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.Migrations.addtablecomanda.resources
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.dll
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.pdb
+D:\PROJETOS\A MARIANA\SistemaMariana\Sistema\mariana asp.net\PdvStock\obj\Debug\PdvStock.csprojResolveAssemblyReference.cache

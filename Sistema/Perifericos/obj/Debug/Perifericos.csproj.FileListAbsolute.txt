@@ -1,0 +1,93 @@
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\bin\Debug\Perifericos.dll
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\bin\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.dll
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.dll
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.Form1.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.dll
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Perifericos.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.Form1.resources
+E:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.dll
+E:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.Form1.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.Form1.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Perifericos\obj\Debug\Perifericos.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\A MARIANA\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+D:\PROJETOS\A MARIANA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\Perifericos\obj\Debug\Perifericos.dll
+D:\PROJETOS\A MARIANA\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+D:\PROJETOS\A MARIANA\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Perifericos\obj\Debug\Perifericos.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+F:\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+F:\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.dll
+F:\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+E:\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+E:\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+E:\Sistema\Perifericos\obj\Debug\Perifericos.csprojAssemblyReference.cache
+E:\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+E:\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.cache
+E:\Sistema\Perifericos\obj\Debug\Perifericos.csproj.CoreCompileInputs.cache
+E:\Sistema\Perifericos\obj\Debug\Perifericos.csproj.CopyComplete
+E:\Sistema\Perifericos\obj\Debug\Perifericos.dll
+E:\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+D:\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.dll
+D:\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Perifericos.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.Form1.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Perifericos\obj\Debug\Perifericos.pdb

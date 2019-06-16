@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5DBFFFF9-0AC8-427B-81A4-F75A325BB419}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Relatorios</RootNamespace>
+    <AssemblyName>Relatorios</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\SISTEMA\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Conn">
+      <HintPath>..\SISTEMA\bin\Debug\Conn.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.VS2010.10.0.40219.1\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.VS2010.10.0.40219.1\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DadosRelatorioMargemLucro.cs" />
+    <Compile Include="DadosRelatorioMovimentoCaixa.cs" />
+    <Compile Include="FiltroRptMargemLucro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltroRptMargemLucro.Designer.cs">
+      <DependentUpon>FiltroRptMargemLucro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FiltroRptMovimentoCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FiltroRptMovimentoCaixa.Designer.cs">
+      <DependentUpon>FiltroRptMovimentoCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Preenchecombo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="relatoriomargemlucro.cs" />
+    <Compile Include="relatoriomovimentocaixa.cs" />
+    <Compile Include="relatoriomovimentosangriasup.cs" />
+    <Compile Include="Relatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorios.Designer.cs">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio_Caixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio_Caixa.Designer.cs">
+      <DependentUpon>Relatorio_Caixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio_Lucro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio_Lucro.Designer.cs">
+      <DependentUpon>Relatorio_Lucro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio_n_Fiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relatorio_n_Fiscal.Designer.cs">
+      <DependentUpon>Relatorio_n_Fiscal.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FiltroRptMargemLucro.resx">
+      <DependentUpon>FiltroRptMargemLucro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FiltroRptMovimentoCaixa.resx">
+      <DependentUpon>FiltroRptMovimentoCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios.resx">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio_Caixa.resx">
+      <DependentUpon>Relatorio_Caixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio_Lucro.resx">
+      <DependentUpon>Relatorio_Lucro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio_n_Fiscal.resx">
+      <DependentUpon>Relatorio_n_Fiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report1.rdlc">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\relatoriomargemlucro.datasource" />
+    <None Include="Properties\DataSources\relatoriomovimentocaixa.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\acessar.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

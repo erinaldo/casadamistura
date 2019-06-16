@@ -1,0 +1,183 @@
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\bin\Debug\Relatorios.dll
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\bin\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\bin\Debug\Conn.dll
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\bin\Debug\Conn.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.dll
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\RdlCompile.cache
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\RdlCompile.compiled
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.dll
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.dll
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Relatorios.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\RdlCompile.cache
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\RdlCompile.compiled
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.dll
+E:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\RdlCompile.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\RdlCompile.compiled
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\RdlCompile.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\RdlCompile.compiled
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Relatorios\obj\Debug\Relatorios.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.dll
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.dll
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\RdlCompile.cache
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\RdlCompile.compiled
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.dll
+D:\PROJETOS\A MARIANA\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\RdlCompile.cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\RdlCompile.compiled
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.dll
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\RdlCompile.cache
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\RdlCompile.compiled
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.dll
+F:\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.dll
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+E:\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+E:\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+E:\Sistema\Relatorios\obj\Debug\Relatorios.csprojAssemblyReference.cache
+E:\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+E:\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.cache
+E:\Sistema\Relatorios\obj\Debug\Relatorios.csproj.CoreCompileInputs.cache
+E:\Sistema\Relatorios\obj\Debug\Relatorios.csproj.CopyComplete
+E:\Sistema\Relatorios\obj\Debug\Relatorios.dll
+E:\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\RdlCompile.cache
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\RdlCompile.compiled
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.dll
+D:\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\RdlCompile.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\RdlCompile.compiled
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.dll
+D:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Relatorios.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMargemLucro.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.FiltroRptMovimentoCaixa.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Properties.Resources.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorios.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Caixa.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_Lucro.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.Relatorio_n_Fiscal.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.dll
+E:\PROJETOS\CASA DA MISTURA\Sistema\Relatorios\obj\Debug\Relatorios.pdb

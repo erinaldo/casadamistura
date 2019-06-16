@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Json .NET";
+}
+<h2>@ViewBag.Title.</h2>
+
+
+<p>
+    Serialize JSON
+    <pre>
+        <code>
+            Product product = new Product();
+            product.Name = "Apple";
+            product.Expiry = new DateTime(2008, 12, 28);
+            product.Sizes = new string[] { "Small" };
+
+            string json = JsonConvert.SerializeObject(product);
+            // {
+            //   "Name": "Apple",
+            //   "Expiry": "2008-12-28T00:00:00",
+            //   "Sizes": [
+            //     "Small"
+            //   ]
+            // }
+        </code>
+    </pre>
+</p>
+
+
+<p>
+    Deserialize JSON
+    <pre>
+        <code>
+            string json = @@&"{
+            'Name': 'Bad Boys',
+            'ReleaseDate': '1995-4-7T00:00:00',
+            'Genres': [
+            'Action',
+            'Comedy'
+            ]
+            }";
+            Movie m = JsonConvert.DeserializeObject<movie>
+                (json);
+                string name = m.Name;
+                // Bad Boys
+        </code>
+    </pre>
+</p>

@@ -1,0 +1,130 @@
+﻿@model PdvStock.Models.PdvPagamento
+<script src="~/Scripts/jquery.maskMoney.js"></script>
+@{
+    Layout = null;
+}
+
+
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-4">
+                <div class="form-group">
+                    <label for="pagar" class="active">VALOR A PAGAR</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">R$</div>
+                        <input type="text" class="form-control input-lg valor" id="ValorTotal" name="ValorTotal" style="height: 80px;font-size: 35px;font-weight:bold" readonly>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="form-group">
+                    <label for="pagar" class="active">TOTAL PAGO</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">R$</div>
+                        <input type="text" class="form-control input-lg valor" id="TotalPago"  name="TotalPago" style="height: 80px;font-size: 35px;font-weight:bold" readonly>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="form-group">
+                    <label for="troco" class="active">TROCO</label>
+                    <div class="input-group">
+                        <div class="input-group-addon">R$</div>
+                        <input type="text" class="form-control input-lg valor" id="Troco" name="Troco" style="height: 80px;font-size: 35px;font-weight:bold" readonly>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="FormaPgtoId">CPF Cliente</label>
+                    <div class="col-md-10">
+                        <input class="form-control cpf text-box single-line" id="Cpf" name="Cpf" type="text" value="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="form-horizontal">
+                @Html.ValidationSummary(false, "", new { @class = "alert alert-danger" })
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.FormaPgtoId, "Forma Pgto", htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.DropDownList("FormaPgtoId", null, @Resources.Resource.ChosenSelectOne, htmlAttributes: new { @class = "form-control chosen" })
+                        @Html.ValidationMessageFor(model => model.FormaPgtoId, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Valor, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.Valor, new { htmlAttributes = new { @class = "form-control valor" } })
+                        @Html.ValidationMessageFor(model => model.Valor, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(model => model.QtdeParcela, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.QtdeParcela, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.QtdeParcela, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <hr />
+                <div style="overflow-y:auto;height:200px">
+                    <table class="table table-striped" id="tablepgto">
+                        <thead>
+                            <tr>
+                                <th>FORMA PGTO</th>
+                                <th>VALOR</th>
+                                <th>PARCELA</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <button type="button" class="btn btn-success">
+                                            <i class="fa fa-save"></i>&ensp;
+                                            Fechar Pagamento (F8)
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <button type="button" class="btn btn-success">
+                                            INFORMAR CPF CLIENTE (F7)
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                
+                                
+                            </div>
+
+
+                            @section Scripts {
+                                @Scripts.Render("~/bundles/jqueryval")
+                            }
+                            <script>
+                                $(".valor").maskMoney({ thousands: '.', decimal: ',', allowZero: true });
+                                $('.cpf').inputmask('999.999.999-99');
+
+                            </script>

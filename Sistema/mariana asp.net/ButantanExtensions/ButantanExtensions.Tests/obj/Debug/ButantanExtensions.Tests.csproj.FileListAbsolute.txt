@@ -1,0 +1,10 @@
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\bin\Debug\ButantanExtensions.Tests.exe.config
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\bin\Debug\ButantanExtensions.Tests.exe
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\bin\Debug\ButantanExtensions.Tests.pdb
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\obj\Debug\ButantanExtensions.Tests.csprojResolveAssemblyReference.cache
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\obj\Debug\ButantanExtensions.Tests.Properties.Resources.resources
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\obj\Debug\ButantanExtensions.Tests.csproj.GenerateResource.Cache
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\obj\Debug\ButantanExtensions.Tests.exe
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\obj\Debug\ButantanExtensions.Tests.pdb
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\bin\Debug\ButantanExtensions.dll
+c:\users\rafael.petronilio\documents\visual studio 2013\Projects\ButantanExtensions\ButantanExtensions.Tests\bin\Debug\ButantanExtensions.pdb

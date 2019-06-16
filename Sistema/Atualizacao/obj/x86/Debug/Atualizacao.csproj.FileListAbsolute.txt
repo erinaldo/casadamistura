@@ -1,0 +1,114 @@
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\bin\Debug\Atualizacao.exe
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\Atualizacao.Properties.Resources.resources
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\PROJETOS\LEPETIT\Atualizacao\Atualizacao\Atualizacao\bin\Debug\Atualizacao.exe.config
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\bin\Debug\Atualizacao.exe
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\bin\Debug\Lepetit.exe
+D:\PROJETOS\LEPETIT\Lepetit\Atualizacao\bin\Debug\Lepetit.pdb
+D:\PROJETOS\LEPETIT\Lepetit\Lepetit\bin\Debug\Atualizacao.exe
+D:\PROJETOS\LEPETIT\Lepetit\Lepetit\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\LEPETIT\Lepetit\Lepetit\bin\Debug\Atualizacao.exe.config
+D:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\ERNANI\SISTEMA\Lepetit\bin\Debug\Atualizacao.exe
+D:\PROJETOS\ERNANI\SISTEMA\Lepetit\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Atualizacao.exe
+D:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Atualizacao.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+E:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+E:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.exe
+E:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Atualizacao.exe
+E:\PROJETOS\ERNANI\SISTEMA\SISTEMA\bin\Debug\Atualizacao.pdb
+E:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Atualizacao.exe
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\SISTEMA\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\ERNANI\casa da mistura\CasaDaMistura - Copia\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Atualizacao.exe
+F:\MARCA TI\ERNANI\CasaDaMistura - Copia\SISTEMA\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+D:\PROJETOS\A MARIANA\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\A MARIANA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\PROJETOS\A MARIANA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\A MARIANA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+D:\PROJETOS\A MARIANA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\A MARIANA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+F:\MARCA TI\amariana\mariana\Sistema\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+F:\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+F:\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+F:\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+F:\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+F:\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+F:\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.CoreCompileInputs.cache
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+C:\Users\mcruz\Desktop\MARCA TI\amariana\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+E:\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+E:\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojAssemblyReference.cache
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.cache
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.CoreCompileInputs.cache
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.CopyComplete
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+E:\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+D:\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+D:\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+D:\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+D:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojResolveAssemblyReference.cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+D:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.Cache
+D:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+D:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\SISTEMA\bin\Debug\Atualizacao.pdb
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csprojAssemblyReference.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.Form1.resources
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.GenerateResource.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.CoreCompileInputs.cache
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.csproj.CopyComplete
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.exe
+E:\PROJETOS\CASA DA MISTURA\Sistema\Atualizacao\obj\x86\Debug\Atualizacao.pdb

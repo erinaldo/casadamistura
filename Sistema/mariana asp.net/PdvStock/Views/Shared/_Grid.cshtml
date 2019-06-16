@@ -1,0 +1,440 @@
+﻿@using GridMvc.Columns
+@model GridMvc.IGrid
+@{String guid = Guid.NewGuid().ToString();}
+
+<style>
+    .filtro-butantan {
+        max-width: 100%;
+    }
+</style>
+@if (Model == null) { return; }
+@if (Model.RenderOptions.RenderRowsOnly)
+{
+    @RenderGridBody();
+}
+else
+{
+
+    /*data-lang="@Model.Language" */
+    <div id="grid-div-summary-@guid"></div>
+    <div id="#@guid" class="grid-mvc" data-lang="@Model.Language" data-gridname="@Model.RenderOptions.GridName" data-selectable="@Model.RenderOptions.Selectable.ToString().ToLower()" data-multiplefilters="@Model.RenderOptions.AllowMultipleFilters.ToString().ToLower()">
+        <div class="grid-wrap">
+            <table class="table table-striped table-bordered table-condensed grid-table">
+                <thead>
+                    @RenderGridHeader()
+                    @FiltroButantan()
+                </thead>
+                <tbody>
+                    @RenderGridBody()
+                </tbody>
+            </table>
+            @RenderGridPager(guid)
+        </div>
+    </div>
+}
+@helper RenderGridBody()
+{
+    if (!Model.ItemsToDisplay.Any())
+    {
+        <tr class="grid-empty-text">
+            <td colspan="@Model.Columns.Count()">
+                @Model.EmptyGridText
+            </td>
+        </tr>
+    }
+    else
+    {
+        foreach (object item in Model.ItemsToDisplay)
+        {
+            <tr class="grid-row @Model.GetRowCssClasses(item)">
+                @foreach (IGridColumn column in Model.Columns)
+                {
+                    @column.CellRenderer.Render(column, column.GetCell(item))
+                }
+            </tr>
+        }
+    }
+}
+@helper RenderGridHeader()
+{
+    <tr>
+        @foreach (IGridColumn column in Model.Columns)
+        {
+            @column.HeaderRenderer.Render(column)
+        }
+    </tr>
+}
+@helper FiltroButantan()
+{
+    <tr>
+        @foreach (IGridColumn column in Model.Columns)
+        {
+            if (column.Name != null)
+            {
+                if (column.Name.Trim() != "")
+                {
+                    <td>
+                        @if (column.FilterEnabled)
+                        {
+                            <form class="formulario" action="" method="get" onkeypress="return event.keyCode != 13;">
+                                <div class="form-group">
+                                    <input type="hidden" name="grid-filter" rel="@column.Name" value="" data-method="2" data-type="@column.FilterWidgetTypeName" />
+                                    @if (@column.FilterWidgetTypeName == "System.DateTime")
+                                    {
+                                        <input type="text" class="form-control filtro-butantan maskData" placeholder="@Resources.Resource.FiltroRapido" />
+                                    }
+                                    else if (@column.FilterWidgetTypeName == "System.Boolean")
+                                    {
+                                        <select class="form-control filtro-butantan chosen " width="80px" placeholder="Filtro rápido">
+                                            <option value="">&ensp;</option>
+                                            <option value="true">@Resources.Resource.Sim</option>
+                                            <option value="false">@Resources.Resource.Nao</option>
+                                        </select>
+                                    }
+                                    else if (@column.FilterWidgetTypeName == "System.Int32")
+                                    {
+                                        <input type="text" class="form-control filtro-butantan number" data-toggle="tooltip" title="@Resources.Resource.FiltroRapidoNumero" placeholder="@Resources.Resource.Numero" />
+                                    }
+                                    else if (@column.FilterWidgetTypeName != "System.String")
+                                    {
+                                        var dll = column.FilterWidgetTypeName.Split('.');
+                                        var dllString = dll[0];
+                                        var a = Type.GetType(column.FilterWidgetTypeName + "," + dllString + "");
+                                        if (a != null)
+                                        {
+                                            if (a.BaseType.ToString() == "System.Enum")
+                                            {
+                                                //foreach (var item in Enum.GetValues(a))
+                                                //{
+
+                                                //}
+                                                <select class=" filtro-butantan form-control chosen" width="auto">
+                                                    <option value="">&ensp;&ensp;</option>
+                                                    @foreach (var intem in EnumHelper.GetSelectList(a))
+                                                    {
+                                                        <option value="@intem.Value">@intem.Text</option>
+                                                    }
+                                                </select>
+                                            }
+                                        }
+                                        else
+                                        {
+                                            <input type="text" class="form-control filtro-butantan" placeholder="@Resources.Resource.FiltroRapido" />
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <input type="text" class="form-control filtro-butantan" placeholder="@Resources.Resource.FiltroRapido" />
+                                    }
+                                    @*@column.FilterWidgetTypeName*@
+
+                                </div>
+                            </form>
+                        }
+                    </td>
+                }
+                else
+                {
+                    <td></td>}
+            }
+            else
+            {
+                <td></td>}
+        }
+    </tr>
+}
+
+@helper RenderGridPager(String guid)
+{
+    if (Model.EnablePaging && Model.Pager != null)
+    {
+        var pager = (GridMvc.Pagination.GridPager)Model.Pager;
+        <div class="grid-footer">
+            <div class="grid-pager">
+                @if (pager.PageCount > 1)
+                {
+                    <ul class="pagination">
+
+                        @if (pager.CurrentPage > 1)
+                        {
+                            <li>
+                                <a href="@pager.GetLinkForPage(pager.CurrentPage - 1)">«</a>
+                            </li>
+                        }
+
+                        @if (pager.StartDisplayedPage > 1)
+                        {
+                            <li>
+                                <a href="@pager.GetLinkForPage(1)">1</a>
+                            </li>
+                            if (pager.StartDisplayedPage > 2)
+                            {
+                                <li><a href="@pager.GetLinkForPage(pager.StartDisplayedPage - 1)">...</a></li>
+                            }
+                        }
+                        @for (int i = pager.StartDisplayedPage; i <= pager.EndDisplayedPage; i++)
+                        {
+                            if (i == pager.CurrentPage)
+                            {
+                                <li class="active"><span>@i</span></li>
+                            }
+                            else
+                            {
+                                <li><a href="@pager.GetLinkForPage(i)">@i</a></li>
+                            }
+                        }
+                        @if (pager.EndDisplayedPage < pager.PageCount)
+                        {
+                            if (pager.EndDisplayedPage < pager.PageCount - 1)
+                            {
+                                <li><a href="@pager.GetLinkForPage(pager.EndDisplayedPage + 1)">...</a></li>
+                            }
+                            <li><a href="@pager.GetLinkForPage(pager.PageCount)">@pager.PageCount</a></li>
+                        }
+                        @if (pager.CurrentPage < pager.PageCount)
+                        {
+                            <li><a href="@pager.GetLinkForPage(pager.CurrentPage + 1)">»</a></li>
+                        }
+                    </ul>
+                }
+            </div>
+        </div>
+        <div id="grid-mvc-summary-@guid" class="text-right">
+            @{
+                String de = "", ate = "", total = "";
+                de = Convert.ToString(((pager.CurrentPage - 1) * pager.PageSize));
+                ate = Convert.ToString(((pager.CurrentPage - 1) * pager.PageSize) + Model.ItemsToDisplay.Count());
+                total = Convert.ToString(pager.ItemsCount);
+                if (pager.ItemsCount == 0)
+                {
+                    de = "0";
+                    ate = "0";
+                }
+                else
+                {
+                    if (de == "0")
+                    {
+                        de = "1";
+                    }
+                }
+
+            }
+            @Html.Raw(string.Format(
+    Resources.Resource.ExibindoGrid, new string[] {
+    de,
+    ate,
+    total
+    }))
+        </div>
+        <script>
+            $(document).ready(function () {
+                $("#grid-mvc-summary-@guid").appendTo($("#grid-div-summary-@guid"));
+            });
+        </script>
+    }
+}
+<script>
+    function trocaData(boo, data) {
+        //se for BR-US
+        if (boo) {
+            data = data.split('/');
+            if (data[2] != undefined) {
+                return data[2] + "-" + data[1] + "-" + data[0];
+            }
+            return "";
+        }            //US-BR
+        else {
+            data = data.split('-');
+            if (data[2] != undefined) {
+                return data[2] + "/" + data[1] + "/" + data[0];
+            }
+            return "";
+        }
+    }
+    function isDataUs(date) {
+        if (date.indexOf("-") == -1 && date.indexOf("/") == -1) return false;
+        return ((new Date(date) !== "Invalid Date" && !isNaN(new Date(date)))) ? true : false;
+    }
+    function TipoToMethodo(tipo) {
+        tipo = ("" + tipo).toLowerCase();
+        //console.log(tipo);
+        switch (tipo) {
+            case "system.string":
+                return 2;
+                break;
+            case "system.boolean":
+                return 1;
+                break;
+            case "system.datetime":
+                return 5;
+                break;
+            default:
+                return 1;
+        }
+    }
+    $(document).ready(function () {
+        //DatePicker MASK
+        $(".maskData").datepicker({
+            format: "dd/mm/yyyy",
+            language: "pt-BR"
+        }).inputmask("99/99/9999");
+
+
+        var url = window.location.href;
+        var eTipoData = false;
+        if (url.indexOf("grid-filter") != -1) {
+            clearUrl = url.substr(0, url.indexOf("?"));
+            params = (url.substr(url.indexOf("?") + 1, url.length)).split("&");
+            for (var i = 0 ; i < params.length; i++) {
+                var variable = params[i].split("grid-filter");
+                if (!variable[1]) { continue; }
+                variable = variable[1];
+                variable = ("" + variable.substr(0, variable.indexOf("_"))).replace("=", "");
+                $('.filtro-butantan').each(function () {
+                    if ($(this).prev("input[type='hidden']").attr('rel') == variable) {
+                        $(this).prev("input[type='hidden']").val(params[i]);
+                        var valor = params[i].substr(("" + params[i]).lastIndexOf("__") + 2, params[i].length);
+                        if (isDataUs(valor)) {
+                            valor = trocaData(false, valor);
+                            eTipoData = true;
+                        } else {
+                            if (params[i].indexOf("__5__") != -1) {
+                                valor = "> " + valor;
+                            }
+                            else if (params[i].indexOf("__6__") != -1) {
+                                valor = "< " + valor;
+                            }
+
+                        }
+                        valor = decodeURIComponent(valor.replace(/\+/g, " "));
+                        if (eTipoData) {
+                            if (params[i].indexOf("__5__") >= 0) {
+                                $(this).val(valor);
+                            }
+                        } else {
+                            $(this).val(valor);
+                        }
+                    }
+                    eTipoData = false;
+                });
+            }
+        }
+        $(document).on("keypress", "form[class='formulario'] input", function (event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                $(this).trigger('change');
+                return false;
+            }
+            return event.keyCode != 13;
+        });
+        $('.filtro-butantan').change(function () {
+            var nomeColuna = $(this).prev('input[type="hidden"]').attr('rel');
+            var clearNome = nomeColuna;
+            var tipo = $(this).prev('input[type="hidden"]').attr('data-type');
+            var va = $(this).val();
+            var intFiltro = TipoToMethodo(tipo);
+            eTipoData = false;
+            if (tipo.toLowerCase() == "system.int32") {
+                if (va.indexOf("<") != -1) {
+                    intFiltro = 6;
+                } else if (va.indexOf(">") != -1) {
+                    intFiltro = 5;
+                }
+                va = va.replace(/[^\d]+/g, '');
+            }
+            nomeColuna += "__" + intFiltro + "__";
+            if (tipo.toLowerCase() == "system.datetime") {
+                va = trocaData(true, va);
+                eTipoData = true;
+            }
+            nomeColuna += va;
+            var url = window.location.href;
+            if (url.indexOf("?") != -1) {
+                clearUrl = url.substr(0, url.indexOf("?"));
+                params = (url.substr(url.indexOf("?") + 1, url.length)).split("&");
+                var newParams = "?";
+                for (var i = 0 ; i < params.length; i++) {
+                    var variable = params[i].split("grid-filter");
+                    if (!variable[1]) {
+                        //Nao tem grid filter copia ela
+                        newParams += variable + "&";
+                        continue;
+                    }
+                    variable = variable[1];
+                    variable = ("" + variable.substr(0, variable.indexOf("_"))).replace("=", "");
+                    if (variable != clearNome) {
+                        if (params[i].indexOf('grid-filter') != -1) {
+                            newParams += params[i] + "&";
+                        } else {
+                            newParams += "grid-filter=" + params[i] + "&";
+                        }
+                    }
+                }
+                if (nomeColuna.indexOf('grid-filter') != -1) {
+                    if (eTipoData) {
+                        var split = nomeColuna.split('-');
+                        var intday = parseInt(split[split.length - 1]);
+                        var day = "" + ((intday + 1));
+                        if (day.length == 1) day = "0" + day;
+                        split[split.length - 1] = day;
+                        split = split.join('-');
+                        if (split.indexOf("__5__") != -1) {
+                            split = split.replace("__5__", "__6__");
+                        }
+                        var dataColuna = (nomeColuna + "&" + split + "&")
+                        newParams += dataColuna;
+                    } else {
+                        newParams += nomeColuna + "&";
+                    }
+                } else {
+                    if (eTipoData) {
+                        var split = nomeColuna.split('-');
+                        var intday = parseInt(split[split.length - 1]);
+                        var day = "" + ((intday + 1));
+                        if (day.length == 1) day = "0" + day;
+                        split[split.length - 1] = day;
+                        split = split.join('-');
+                        if (split.indexOf("__5__") != -1) {
+                            split = split.replace("__5__", "__6__");
+                        }
+                        var dataColuna = ("grid-filter=" + nomeColuna + "&" + "grid-filter=" + split + "&")
+                        newParams += dataColuna;
+                    } else {
+                        newParams += "grid-filter=" + nomeColuna + "&";
+                    }
+                }
+                if (newParams.lastIndexOf("&") != -1) {
+                    if (newParams.lastIndexOf("&") == (newParams.length - 1)) {
+                        newParams = newParams.substr(0, newParams.length - 1);
+                    }
+                }
+                window.location = clearUrl + newParams;
+            } else {
+                if (eTipoData) {
+                    var split = nomeColuna.split('-');
+                    var intday = parseInt(split[split.length - 1]);
+                    var day = "" + ((intday + 1));
+                    if (day.length == 1) day = "0" + day;
+                    split[split.length - 1] = day;
+                    split = split.join('-');
+                    if (split.indexOf("__5__") != -1) {
+                        split = split.replace("__5__", "__6__");
+                    }
+                    var dataColuna = ("grid-filter=" + nomeColuna + "&" + "grid-filter=" + split + "&")
+                    var newParams = "?";
+                    newParams += dataColuna;
+                    if (newParams.lastIndexOf("&") != -1) {
+                        if (newParams.lastIndexOf("&") == (newParams.length - 1)) {
+                            newParams = newParams.substr(0, newParams.length - 1);
+                        }
+                    }
+                    var clearUrl = url.substr(0, url.indexOf("?"));
+                    window.location = clearUrl + newParams;
+                } else {
+                    $(this).prev('input[type="hidden"]').val(nomeColuna);
+                    $(this).parents('form[class^="formulario"]').submit();
+                }
+            }
+        });
+    });
+</script>

@@ -1,0 +1,9 @@
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\bin\Debug\Telas.exe
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\bin\Debug\Telas.pdb
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\Telas.Form1.resources
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\Telas.Properties.Resources.resources
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\Telas.exe
+D:\PROJETOS\ERNANI\SISTEMA\telas\Telas\Telas\obj\x86\Debug\Telas.pdb
